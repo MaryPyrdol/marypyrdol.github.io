@@ -19,23 +19,33 @@
                         <a href="#"><li>Resume/CV</li></a>
                         <a href="#"><li>About</li></a>
                         <a href="https://www.linkedin.com/in/mary-pyrdol/"><li id="linkedin-img"><img class="socials-icon"src="linkedinicon.png"></li></a>
-                        <a href="file:///C:/Users/cupca/OneDrive/Pictures/Resumes,%20Cover%20Letters,%20Porfolios/Mary-s-Portfolio-Website/Idea2/Mary-Pyrdol-Portfolio/home.html#"><li><img class="socials-icon" src="instaicon.png"></li></a>
+                        <a href="#"><li><img class="socials-icon" src="instaicon.png"></li></a>
                     </ul>
                 </nav>
             </div>
         </div>
         </header>
-        <div class="container">
-            <h1>I'm <span class="auto-type"></span></h1>
+            <div id="flex-container-1">
+            <div id="flex-item-1">
+          <div class="hello">
+                <h1>Hi, I'm Mary.</h1>
+            </div>
+            <div class="type-effect">
+                <h1>I'm <span class="auto-type"></span></h1>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["a UX/UI designer.", "a graphic designer.", "a web developer.", "a product designer.", "a wearer of many hats."],
+                    typeSpeed: 60,
+                    backSpeed: 60,
+                    loop: true
+                })
+            </script> 
+            </div>
+            <div id="flex-item-2">
+                <img src="self-portrait.png" style="width:65%;">
+            </div>
         </div>
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        <script>
-            var typed = new Typed(".auto-type", {
-                strings: ["a UX/UI designer.", "a graphic designer.", "a web developer.", "a product designer.", "a wearer of many hats."],
-                typeSpeed: 120,
-                backSpeed: 60,
-                loop: true
-            })
-        </script>
     </body>
 </html>
