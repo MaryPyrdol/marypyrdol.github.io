@@ -61,9 +61,26 @@ nav a{
     width:2.1%;
 }
 
+.type-effect{
+    width:100%;
+    margin-top:6vh;
+    color:#484848;
+    display:flex;
+    justify-content: center;
+}
+
+.type-effect h1{
+    font-size:calc(5px + 2vw);
+    font-weight:600;
+}
+
+.auto-type{
+    color:rgb(68, 0, 255);
+}
+
 #page-title h1{
     font-size:calc(5px + 3vw);
-    margin-top:10vh;
+    margin-top:2vh;
     margin-bottom:10vh;
     text-align:center;
 }
