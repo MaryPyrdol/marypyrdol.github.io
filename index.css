@@ -49,7 +49,7 @@ nav li{
 }
 
 li:hover{
-    color:#00ffff;
+    color:rgb(68, 0, 255);
 }
 
 nav a{
@@ -186,9 +186,9 @@ div #flex-item-2{
 }
 
 .animated {
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: both;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both
 }
 
@@ -198,17 +198,7 @@ div #flex-item-2{
 
 .fadeInUp {
     opacity: 0;
-    animation-name: fadeInUp2;
-    -webkit-animation-name: fadeInUp2;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }
 
-.tag {
-    opacity: 0;
-    transform: translate(0, 10vh);
-    transition: all 1s;
-  }
-  
-  .tag.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-  }

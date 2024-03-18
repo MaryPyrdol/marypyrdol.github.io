@@ -47,7 +47,7 @@
                 <img src="self-portrait.png" style="width:68%;">
             </div>
         </div>
-        <div id="flex-container-2" class="tag">
+        <div id="flex-container-2">
             <div id="project-2-details">
                 <img src="cookmark-3.PNG" style="width:20%;margin-left:2vw;">
                 <img src="cookmark-2.PNG" style="width:30%;">
@@ -60,7 +60,7 @@
                 and easily share them with loved ones.</h2>
             </div>
         </div>
-        <div id="flex-container-3" class="tag">
+        <div id="flex-container-3">
             <div class="project-title">
             <h1>Chirp</h1>
             <h3>Case Study</h3>
@@ -71,23 +71,5 @@
                 <img src="chirp2L.PNG" style="width:100%;">
             </div>
         </div>
-        <script>
-            $(document).on("scroll", function() {
-  var pageTop = $(document).scrollTop();
-  var pageBottom = pageTop + $(window).height();
-  var tags = $(".tag");
-
-  for (var i = 0; i < tags.length; i++) {
-    var tag = tags[i];
-
-    if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
-    } else {
-      $(tag).removeClass("visible");
-    }
-  }
-});
-
-        </script>
     </body>
 </html>
