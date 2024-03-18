@@ -150,6 +150,11 @@ nav a{
     line-height: 170%;
 }
 
+.project-link a{
+    color:rgb(68, 0, 255);
+    font-weight:bold;
+}
+
 #project-1{
     display:flex;
     flex-direction:row;
@@ -245,3 +250,31 @@ nav a{
     border: 1px groove rgb(68, 0, 255);
   }
 
+#more-project-1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#more-1-info{
+    width:40%;
+}
+
+#more-1-info h3{
+    color:#484848;
+    margin-bottom:6vh;
+    font-size:calc(5px + 1vw);
+}
+
+#more-1-info p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#more-video{
+    width:50%;
+    text-align:center;
+} 
