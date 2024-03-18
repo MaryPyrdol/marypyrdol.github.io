@@ -8,6 +8,8 @@
     background-color:#fff;
 }
 
+/* Header (navigation bar, social links, etc) */
+
 header{
     padding-top:4vh;
     padding-bottom:3vh;
@@ -67,6 +69,8 @@ nav a{
     margin-bottom:10vh;
     text-align:center;
 }
+
+/* Psyche Inspired Intro (at the top of the page) */
 
 #introduction{
     width:55%;
@@ -130,6 +134,8 @@ nav a{
     -webkit-animation-name: fadeInUp;
 }
 
+/* All Nasa projects and timeline */
+
 #nasa-projects{
     width:55%;
     margin:0 auto;
@@ -154,6 +160,30 @@ nav a{
     color:rgb(68, 0, 255);
     font-weight:bold;
 }
+
+/* link to actual NASA website (for each project's full official page) */
+
+.nasa-link a{
+    color:rgba(68, 0, 255, 0.507);
+    font-weight:bold;
+}
+
+p.nasa-link {
+    margin-top:60vh;
+    margin-bottom:40vh;
+    margin-right:16vw;
+    border:3px groove rgba(68, 0, 255, 0.507);
+    border-radius:20px 20px 20px 20px;
+    padding:0.8vw;
+    text-align:left;
+    font-size:calc(5px + 1vw);
+}
+
+.nasa-link :hover{
+    color:rgb(68, 0, 255);
+}
+
+/* Project 1 - Greetings from PSYCHE */
 
 #project-1{
     display:flex;
@@ -250,10 +280,14 @@ nav a{
     border: 1px groove rgb(68, 0, 255);
   }
 
+/* Project 1 - Greetings from PSYCHE Bonus Content */
+
 #more-project-1{
     display:flex;
     flex-direction:row;
     justify-content:center;
+    height:60vh;
+    margin-top:20vh;
 }
 
 #more-1-info{
@@ -277,4 +311,43 @@ nav a{
 #more-video{
     width:50%;
     text-align:center;
+} 
+
+/* Project 2 - PSYCHE for Atari 2600 */
+
+#project-2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#project-2-info{
+    width:40%;
+    height:100vh;
+}
+
+#project-2-info h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#project-2-info h3{
+    color:#484848;
+    margin-bottom:6vh;
+    font-size:calc(5px + 1vw);
+}
+
+#project-2-info p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#project-2-image{
+    width:40%;
+    text-align:right;
 } 
