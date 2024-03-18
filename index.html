@@ -18,8 +18,8 @@
                         <a href="portfolio.html"><li>Portfolio</li></a>
                         <a href="resume.pdf" target="_blank"><li>Resume/CV</li></a>
                         <a href="#"><li>About</li></a>
-                        <a href="https://www.linkedin.com/in/mary-pyrdol/"><li id="linkedin-img"><img class="socials-icon"src="linkedinicon.png"></li></a>
-                        <a href="#"><li><img class="socials-icon" src="instaicon.png"></li></a>
+                        <a href="https://www.linkedin.com/in/mary-pyrdol/" target="_blank"><li id="linkedin-img"><img class="socials-icon"src="linkedinicon.png"></li></a>
+                        <a href="https://www.instagram.com/_marys.canvas_/" target="_blank"><li><img class="socials-icon" src="instaicon.png"></li></a>
                     </ul>
                 </nav>
             </div>
@@ -27,10 +27,10 @@
         </header>
             <div id="flex-container-1">
             <div id="flex-item-1">
-          <div class="hello">
+          <div class="hello animated animatedFadeInUp fadeInUp">
                 <h1>Hi, I'm Mary.</h1>
             </div>
-            <div class="type-effect">
+            <div class="type-effect animated animatedFadeInUp fadeInUp">
                 <h1>I'm <span class="auto-type"></span></h1>
             </div>
             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -43,11 +43,11 @@
                 })
             </script> 
             </div>
-            <div id="flex-item-2">
+            <div id="flex-item-2" class="animated animatedFadeInUp fadeInUp">
                 <img src="self-portrait.png" style="width:68%;">
             </div>
         </div>
-        <div id="flex-container-2">
+        <div id="flex-container-2" class="tag">
             <div id="project-2-details">
                 <img src="cookmark-3.PNG" style="width:20%;margin-left:2vw;">
                 <img src="cookmark-2.PNG" style="width:30%;">
@@ -60,7 +60,7 @@
                 and easily share them with loved ones.</h2>
             </div>
         </div>
-        <div id="flex-container-3">
+        <div id="flex-container-3" class="tag">
             <div class="project-title">
             <h1>Chirp</h1>
             <h3>Case Study</h3>
@@ -71,5 +71,23 @@
                 <img src="chirp2L.PNG" style="width:100%;">
             </div>
         </div>
+        <script>
+            $(document).on("scroll", function() {
+  var pageTop = $(document).scrollTop();
+  var pageBottom = pageTop + $(window).height();
+  var tags = $(".tag");
+
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+
+    if ($(tag).position().top < pageBottom) {
+      $(tag).addClass("visible");
+    } else {
+      $(tag).removeClass("visible");
+    }
+  }
+});
+
+        </script>
     </body>
 </html>
