@@ -217,12 +217,13 @@ p.nasa-link {
     line-height: 170%;
 }
 
- #project-1-image{
+ #project-1-images{
     width:40%;
     text-align:right;
+    margin-top:9vh;
 } 
 
-.gallery {
+/*.gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -278,7 +279,7 @@ p.nasa-link {
   
   .gallery input[name="select"]:checked + label:before {
     border: 1px groove rgb(68, 0, 255);
-  }
+  } */
 
 /* Project 1 - Greetings from PSYCHE Bonus Content */
 
@@ -323,7 +324,7 @@ p.nasa-link {
 
 #project-2-info{
     width:40%;
-    height:100vh;
+    height:150vh;
 }
 
 #project-2-info h2{
@@ -347,7 +348,154 @@ p.nasa-link {
     line-height: 170%;
 }
 
+#project-2-images{
+    width:100%;
+    text-align:right;
+} 
+
 #project-2-image{
     width:40%;
     text-align:right;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-content: start;
+    max-width: 700px;
+    padding-left:10vw;
+    padding-right:0;
+    padding-top:9vh;
+    transition: all 150ms ease-in-out;
+    justify-content:right;
+  }
+  
+  .gallery input[type="radio"] {
+    display: none;
+  }
+  
+  .gallery label {
+    position: relative;
+    display: block;
+    padding-bottom: 60%;
+    margin: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .gallery label:before {
+    border: 1px groove #e3e3e3;
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    top: -5px;
+  }
+  
+  .gallery img {
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    transition: all 150ms linear;
+  }
+  
+  .gallery input[name="select"]:checked + label + img {
+    display: block;
+  }
+  
+  .gallery input[name="select"]:checked + label:before {
+    border: 1px groove rgb(68, 0, 255);
+  }
+
+/* Project 3 - Psyche Metal Pins */
+
+#project-3{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#project-3-info{
+    width:40%;
+    height:100vh;
+}
+
+#project-3-info h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#project-3-info h3{
+    color:#484848;
+    margin-bottom:6vh;
+    font-size:calc(5px + 1vw);
+}
+
+#project-3-info p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#project-3-images{
+    width:40%;
+    text-align:left;
 } 
+
+#project-3-images img{
+    margin-top:9vh;
+} 
+
+/* Project 4 - Mind and Soul */
+
+#project-4 {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#project-4-info{
+    width:40%;
+    height:100vh;
+}
+
+#project-4-info h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#project-4-info h3{
+    color:#484848;
+    margin-bottom:6vh;
+    font-size:calc(5px + 1vw);
+}
+
+#project-4-info p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#project-4-images{
+    width:40%;
+    text-align: right;
+} 
+
