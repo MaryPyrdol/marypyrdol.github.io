@@ -8,6 +8,11 @@
     background-color:#fff;
 }
 
+html{
+    max-width:1920px;
+    margin: 0 auto;
+}
+
 /* Header (navigation bar, social links, etc) */
 
 header{
