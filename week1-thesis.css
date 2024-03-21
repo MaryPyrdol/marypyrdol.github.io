@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Montserrat,'Courier New', Courier, monospace, sans-serif;
+    /*background:#2b323c;*/
+    background-color:#fff;
+}
+
+html{
+    max-width:1920px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+
+header{
+    padding-top:4vh;
+    padding-bottom:3vh;
+   /* background-color:#686e76;*/
+   /*background:#2b323c;*/
+   background-color:#fff;
+   font-weight:bolder;
+}
+
+#header-container{
+    display:flex;
+    flex-direction:row;
+}
+
+#name-div{
+    width:20%;
+}
+
+#nav-div{
+    width:80%;
+    text-align:right;
+}
+
+header h2{
+    color:#484848;
+    font-size:calc(5px + 1.8vw);
+    padding-left:2vw;
+}
+
+a{
+    text-decoration:none;
+}
+
+nav li{
+    display:inline;
+    font-size:calc(1vw + 5px);
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+li:hover{
+    color:rgb(68, 0, 255);
+}
+
+nav a{
+    text-decoration: none;
+    color:#484848;
+}
+
+.socials-icon{
+    width:2.1%;
+}
+
+#page-title h1{
+    font-size:calc(5px + 3vw);
+    margin-top:10vh;
+    margin-bottom:5vh;
+    text-align:center;
+}
+
+/* Introduction */
+
+#introduction{
+    width:55%;
+    margin:0 auto;
+    margin-bottom:14vh;
+}
+
+#introduction p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* Poster boxes */
+
+
+#poster-boxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:6vh;
+    margin-bottom:14vh;
+    text-align:center;
+}
+
+#poster-box{
+    width:22%;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+/*  Inspiration Section */
+
+#inspo{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:100vh;
+    margin-top:10vh;
+}
+
+#inspo-text{
+    width:40%;
+    color:#484848;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+#inspo-text p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#inspo-image{
+    width:40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -192,12 +192,15 @@ video{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:70vh;
+    height:65vh;
 }
 
 #methodology-text{
     width:40%;
     color:#484848;
+    display:grid;
+    justify-content: center;
+    align-items: center;
     font-size:calc(5px + .8vw);
     line-height: 170%;
 }
@@ -218,8 +221,10 @@ video{
 
 #methodology-image{
     width:40%;
-    text-align:right;
-    margin-top:2vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:4vw;
 }
 
 /* Methodology Section 2 */
@@ -228,17 +233,22 @@ video{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:70vh;
+    height:60vh;
+    margin-bottom:14vh;
 }
 
 #triangle-image{
     width:40%;
-    text-align:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #methodology-2-text{
     width:40%;
-    align-items:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #methodology-2-text p{
@@ -320,13 +330,17 @@ video{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:80vh;
+    height:60vh;
     margin-top:22vh;
+    margin-bottom:22vh;
 }
 
 #problem-text{
     width:40%;
     color:#484848;
+    display:grid;
+    justify-content: center;
+    align-items: center;
     font-size:calc(5px + .8vw);
     line-height: 170%;
 }
@@ -339,7 +353,7 @@ video{
 
 #problem-text p{
     color:#484848;
-    margin-top:2vh;
+    margin-top: 2vh;
     margin-bottom:2vh;
     font-size:calc(5px + .8vw);
     line-height: 170%;
@@ -347,8 +361,9 @@ video{
 
 #problem-image{
     width:40%;
-    text-align:left;
-    margin-top:4vh;
+    display:grid;
+    justify-content: left;
+    align-items: center;
 }
 
 /* My Hypothesis */
@@ -486,7 +501,7 @@ video{
 }
 
 #experiment-box-1{
-    width:29%;
+    width:20%;
 }
 
 #experiment-box-1 p{
@@ -500,7 +515,7 @@ video{
 }
 
 #experiment-box-2{
-    width:29%;
+    width:20%;
 }
 
 #experiment-box-2 p{
@@ -514,7 +529,7 @@ video{
 }
 
 #experiment-box-3{
-    width:29%;
+    width:20%;
 }
 
 #experiment-box-3 p{
@@ -525,4 +540,44 @@ video{
     padding-left:1vw;
     font-size:calc(5px + .6vw);
     line-height: 165%;
+}
+
+#experiment-box-4{
+    width:20%;
+}
+
+#experiment-box-4 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    padding-right:1vw;
+    padding-left:1vw;
+    font-size:calc(5px + .6vw);
+    line-height: 165%;
+}
+
+/* Experiment hover effect */
+
+.category{
+    width:45%;
+    margin:2vw;
+    height:90vh;
+    translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate(0px);
+  opacity: 1;
+}
+
+.category:hover{
+    transform: scale(1.02, 1.02);
+    transition-duration: .3s;
+}
+
+.category:not(:hover){
+    width:45%;
+    margin:2vw;
+    height:90vh;
+    transform: scale(1, 1);
+    transition-duration: .3s;
 }
