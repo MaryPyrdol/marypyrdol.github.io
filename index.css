@@ -240,10 +240,10 @@ div #flex-item-2{
     #name-div{width:40%;}
     #name-div h2{font-size:calc(4px + 3.5vw);align-items: flex-end;}
     #nav-div{width:55%;}
-    nav li{font-size: calc(3vw + 2.5px);}
+    nav li{font-size: calc(3vw + 10px);}
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
-    .socials-icon{width:8%;}
+    .socials-icon{width:10%;}
     #flex-container-1{flex-direction:column;justify-content: center;align-items: center;margin-top:0;}
     #flex-item-1{width:100%;}
     .type-effect{padding-left:0;height:8vh;width:100%;}
