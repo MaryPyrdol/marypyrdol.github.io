@@ -78,9 +78,9 @@ nav a{
 /* Introduction */
 
 #introduction{
-    width:55%;
+    width:52%;
     margin:0 auto;
-    margin-bottom:14vh;
+    margin-bottom:4vh;
 }
 
 #introduction p{
@@ -89,57 +89,4 @@ nav a{
     margin-bottom:2vh;
     font-size:calc(5px + .8vw);
     line-height: 170%;
-}
-
-/* Poster boxes */
-
-
-#poster-boxes{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin-top:6vh;
-    margin-bottom:14vh;
-    text-align:center;
-}
-
-.poster-box{
-    width:22%;
-    margin-left:1vw;
-    margin-right:1vw;
-}
-
-/*  Inspiration Section */
-
-#inspo{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    height:100vh;
-    margin-top:10vh;
-}
-
-#inspo-text{
-    width:40%;
-    color:#484848;
-    font-size:calc(5px + .8vw);
-    line-height: 170%;
-    display:grid;
-    justify-content:center;
-    align-items:center;
-}
-
-#inspo-text p{
-    color:#484848;
-    margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
-    line-height: 170%;
-}
-
-#inspo-image{
-    width:40%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
 }

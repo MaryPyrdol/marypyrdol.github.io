@@ -74,3 +74,83 @@ nav a{
     margin-bottom:5vh;
     text-align:center;
 }
+
+/* Introduction */
+
+#introduction{
+    width:52%;
+    margin:0 auto;
+    margin-bottom:4vh;
+}
+
+#introduction p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#go-green-full{
+    width:60%;
+    margin:0 auto;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* image boxes */
+
+
+#photo-boxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:6vh;
+    margin-bottom:14vh;
+    text-align:center;
+}
+
+.photo-box{
+    width:28%;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+/*  Inspiration Section */
+
+#inspo{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:70vh;
+    margin-top:10vh;
+}
+
+#inspo-text{
+    width:40%;
+    color:#484848;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+#inspo-text p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#inspo-image{
+    width:40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:4vw;
+}
