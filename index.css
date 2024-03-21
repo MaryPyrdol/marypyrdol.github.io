@@ -244,7 +244,7 @@ div #flex-item-2{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
-    #flex-container-1{flex-direction:column;justify-content: center;align-items: center;margin-top:0;height:100vh;}
+    #flex-container-1{flex-direction:column;justify-content: center;align-items: center;margin-top:10vh;height:70vh;}
     #flex-item-1{width:100%;}
     .type-effect{padding-left:0;height:8vh;width:100%;}
     .hello{width:100%;margin-left:0;text-align:center;justify-content: center;height:10vh;}
