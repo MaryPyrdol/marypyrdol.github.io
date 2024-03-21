@@ -257,6 +257,12 @@ div #flex-item-2{
     #project-3-details{width:90%;}
  }
 
+ @media screen and (max-width:680px){
+    #flex-container-1{height:100vh;margin-bottom:10vh;}
+    #flex-container-2{margin-top:16vh;height:80vh;}
+    #flex-container-3{margin-top:8vh;height:80vh;}
+ }
+
  @media screen and (max-width:500px){
     header{margin-top:0;}
     header h2{margin-top:1vh;}
