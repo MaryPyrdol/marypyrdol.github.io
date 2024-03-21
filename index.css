@@ -244,7 +244,24 @@ div #flex-item-2{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:8%;}
-    #flex-container-1{flex-direction:column;justify-content: center;align-items: center;margin-top:0;height:50vh;}
-    .type-effect{padding-left:0;height:10vh;}
-    .hello{width:100%;margin-left:0;text-align:center;justify-content: center;}
+    #flex-container-1{flex-direction:column;justify-content: center;align-items: center;margin-top:0;}
+    .type-effect{padding-left:0;height:8vh;width:100%;}
+    .hello{width:100%;margin-left:0;text-align:center;justify-content: center;height:10vh;}
+    .hello h1{margin-top:2vh;}
+    #flex-container-2{flex-direction:column;justify-content: center;align-items: center;margin-top:30vh;height:50vh;}
+    div#flex-item-2{display:flex;justify-content: center;width:80%;}
+    .project-title{margin-top:2vh;width:80%;}
+    #project-2-details{width:90%;}
+    #flex-container-3{flex-direction:column-reverse;justify-content: center;align-items: center;margin-top:40vh;height:90vh;}
+    #project-3-details{width:90%;}
+ }
+
+ @media screen and (max-width:500px){
+    .hello{height:5vh;}
+    .hello h1{margin-top:0;}
+    .type-effect{height:6vh;}
+    #flex-container-2{margin-top:10vh;}
+    #flex-container-3{margin-top:4vh;height:72vh;}
+    .project-title h2{width:100%;font-size:calc(2vw + 1px);}
+    .project-title h3{font-size:calc(2vw + 1.5px);}
  }
