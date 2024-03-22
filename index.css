@@ -259,7 +259,7 @@ div #flex-item-2{
  }
 
  @media screen and (max-width:680px){
-    html, body{width:90%;}
+    html, body{width:80%;}
     #flex-container-1{height:100vh;margin-bottom:10vh;}
     #flex-container-2{margin-top:16vh;height:80vh;}
     #flex-container-3{margin-top:8vh;height:80vh;}
