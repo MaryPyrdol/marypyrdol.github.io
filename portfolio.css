@@ -190,4 +190,6 @@ div#projects{
      div#projects{flex-direction:column;align-items:center;flex-wrap:nowrap;width:100%;}
      .category{width:100%;}
      .category:not(:hover){width:90%;margin-top:6vh;}
+     .type-effect h1{font-size:calc(1px + 4vw);}
+     #page-title h1{font-size:calc(1px + 5vw);}
 }
