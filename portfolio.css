@@ -13,6 +13,8 @@ html{
     margin: 0 auto;
 }
 
+/*header*/
+
 header{
     padding-top:4vh;
     padding-bottom:3vh;
@@ -66,6 +68,8 @@ nav a{
     width:2.1%;
 }
 
+/* page title */
+
 .type-effect{
     width:100%;
     margin-top:6vh;
@@ -90,6 +94,8 @@ nav a{
     text-align:center;
 }
 
+/* projects */
+
 div#projects{
     width:100%;
     display:flex;
@@ -102,7 +108,7 @@ div#projects{
 .category{
     width:45%;
     margin:2vw;
-    height:90vh;
+    height:auto;
     translate: none;
   rotate: none;
   scale: none;
@@ -130,7 +136,58 @@ div#projects{
 .category:not(:hover){
     width:45%;
     margin:2vw;
-    height:90vh;
+    height:auto;
     transform: scale(1, 1);
     transition-duration: .3s;
+}
+
+ /* Hide Hamburger Icon*/
+ #hamnav label, #hamburger{display:none;}
+
+ /* Small Screens */
+ @media screen and (max-width:786px){
+
+ /* Break into vertical menu */
+ #ham-items{display:block;font-size: calc(2vw + 5px);}
+ #ham-items a{
+     display:block;
+     width:100%;
+     box-sizing:border-box;
+     border-top:1px solid #fff;
+     font-weight:bold;
+ }
+
+ /* Show Hamburger Icon */
+ #hamnav label{
+     display:inline-block;
+     color:rgb(68, 0, 255);
+     background:#fff;
+     font-size:1.6em;
+     padding:0 1vw;
+ }
+
+ /* Hide/collapse menu items for the default look */
+ #ham-items{display:none;}
+ #hamnav input:checked ~ #ham-items{display:block;}
+ }
+
+@media only screen and (max-width:786px){
+    /* html, body{width:90%;}*/
+     header h2{padding-left:0;display:flex;justify-content: center;}
+     #name-div{width:40%;}
+     #name-div h2{font-size:calc(4px + 3.5vw);align-items: flex-end;}
+     #nav-div{width:55%;}
+     nav li{font-size: calc(3vw + 10px);}
+     ul#ham-items{margin:4vh 0;}
+     a{margin:6vh 0;}
+     .socials-icon{width:10%;}
+}
+
+@media only screen and (max-width:600px){
+    /* html, body{width:100%;}*/
+     header{margin-top:0;}
+     header h2{margin-top:1vh;}
+     div#projects{flex-direction:column;align-items:center;flex-wrap:nowrap;width:100%;}
+     .category{width:100%;}
+     .category:not(:hover){width:90%;}
 }
