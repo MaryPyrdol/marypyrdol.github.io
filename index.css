@@ -236,6 +236,7 @@ div #flex-item-2{
  }
 
  @media screen and (max-width:786px){
+    html, body{width:90%;}
     header h2{padding-left:0;display:flex;justify-content: center;}
     #name-div{width:40%;}
     #name-div h2{font-size:calc(4px + 3.5vw);align-items: flex-end;}
@@ -258,12 +259,14 @@ div #flex-item-2{
  }
 
  @media screen and (max-width:680px){
+    html, body{width:90%;}
     #flex-container-1{height:100vh;margin-bottom:10vh;}
     #flex-container-2{margin-top:16vh;height:80vh;}
     #flex-container-3{margin-top:8vh;height:80vh;}
  }
 
  @media screen and (max-width:500px){
+    html, body{width:100%;}
     header{margin-top:0;}
     header h2{margin-top:1vh;}
     div#flex-item-1{width:100%;}
