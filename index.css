@@ -263,7 +263,7 @@ div #flex-item-2{
     #flex-container-3{margin-top:8vh;height:80vh;}
  }
 
- @media screen and (min-width:481px){
+ @media screen and (max-width:500px){
     header{margin-top:0;}
     header h2{margin-top:1vh;}
     div#flex-item-1{width:100%;}
