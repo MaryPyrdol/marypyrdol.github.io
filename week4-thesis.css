@@ -90,3 +90,47 @@ nav a{
     font-size:calc(5px + .8vw);
     line-height: 170%;
 }
+
+ /* Hide Hamburger Icon*/
+ #hamnav label, #hamburger{display:none;}
+ /* Small Screens */
+ @media screen and (max-width:786px){
+ /* Break into vertical menu */
+ #ham-items{display:block;font-size: calc(2vw + 5px);}
+ #ham-items a{
+     display:block;
+     width:100%;
+     box-sizing:border-box;
+     border-top:1px solid #fff;
+     font-weight:bold;
+ }
+ /* Show Hamburger Icon */
+ #hamnav label{
+     display:inline-block;
+     color:rgb(68, 0, 255);
+     background:#fff;
+     font-size:1.6em;
+     padding:0 1vw;
+ }
+ /* Hide/collapse menu items for the default look */
+ #ham-items{display:none;}
+ #hamnav input:checked ~ #ham-items{display:block;}
+ }
+
+ @media only screen and (max-width:786px){
+   /* html, body{width:90%;}*/
+    header h2{padding-left:0;display:flex;justify-content: center;}
+    #name-div{width:40%;}
+    #name-div h2{font-size:calc(4px + 3.5vw);align-items: flex-end;}
+    #nav-div{width:55%;}
+    nav li{font-size: calc(3vw + 10px);}
+    ul#ham-items{margin:4vh 0;}
+    a{margin:6vh 0;}
+    .socials-icon{width:10%;}
+ }
+
+ @media only screen and (max-width:600px){
+    /* html, body{width:100%;}*/
+     header{margin-top:0;}
+     header h2{margin-top:1vh;}
+ }
