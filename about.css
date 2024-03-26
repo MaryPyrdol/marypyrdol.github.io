@@ -73,6 +73,121 @@ nav a{
     text-align:center;
 }
 
+/* Introduction section 1 */
+
+#introduction-1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-bottom:14vh;
+}
+
+#intro-text{
+    width:40%;
+    margin:0 4vw;
+}
+
+#intro-text h1{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.8vw);
+}
+
+#intro-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#intro-image{
+    width:35%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Introduction section 2 */
+
+#introduction-2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-bottom:14vh;
+}
+
+#intro-text-2{
+    width:40%;
+    margin:0 4vw;
+}
+
+#intro-text-2 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#intro-image-2{
+    width:35%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-link a{
+    color:rgb(68, 0, 255);
+    font-weight:bold;
+}
+
+/* Skills Section */
+
+#skills{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+}
+
+#skills-text-1{
+    width:20%;
+    margin:0 2vw 0 6vw;
+}
+
+#skills-text-2{
+    width:20%;
+    margin:0 2vw;
+}
+
+#skills-text-1 li{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 90%;
+    margin-left:3vw;
+}
+
+#skills-text-2 li{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 90%;
+    margin-left:3vw;
+}
+
+#skills-image{
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
  /* Hide Hamburger Icon*/
  #hamnav label, #hamburger{display:none;}
  /* Small Screens */
