@@ -91,6 +91,112 @@ nav a{
     line-height: 170%;
 }
 
+/* logo images */
+
+#logo{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-1{
+    width:50%;
+    margin:0 2vw 0 0;
+}
+
+#logo-2{
+    width:50%;
+}
+
+/* final logo section */
+
+#logo-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-2-1{
+    width:40%;
+    text-align: center;
+}
+
+#logo-2-2{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-2-1 p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* stamp section 1 */
+
+#stamps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:14vh;
+    height:auto;
+}
+
+#stamp-1{
+    width:40%;
+    text-align: center;
+}
+
+#stamp-2{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 2vw 0 4vw;
+}
+
+#stamp-2 p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* stamp section 2 */
+
+#stamps-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:14vh;
+    height:auto;
+}
+
+#stamps-2-2{
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 2vw 0 4vw;
+}
+
+#stamps-2-1{
+    width:40%;
+    text-align: left;
+}
+
+#stamps-2-1 p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
  /* Hide Hamburger Icon*/
  #hamnav label, #hamburger{display:none;}
  /* Small Screens */
