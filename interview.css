@@ -104,6 +104,7 @@ nav a{
     width:55%;
     margin:0 auto;
     margin-bottom:14vh;
+    text-align: center;
 }
 
 #questions h3{
@@ -150,7 +151,50 @@ nav a{
     margin-left:4vw;
 }
 
-/* Poster boxes */
+/* Question 2 */
+
+#question-2{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:auto;
+    margin:18vh 0;
+}
+
+#Q2-text{
+    width:40%;
+    margin:auto 0;
+}
+
+#Q2-text p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#Q2-image{
+    width:35%;
+    margin-right:4vw;
+}
+
+/* Question 2-2 */
+
+#question-2-2{
+    width:55%;
+    margin:0 auto;
+    margin-bottom:14vh;
+}
+
+#question-2-2 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* image boxes */
 
 
 #poster-boxes{
@@ -164,10 +208,38 @@ nav a{
 }
 
 .poster-box{
-    width:22%;
-    margin-left:1vw;
-    margin-right:1vw;
+    width:40%;
+    margin: 0 1vw;
 }
+
+
+/* Question 3 */
+
+#question-3{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:auto;
+    margin:18vh 0;
+}
+
+#Q3-text{
+    width:40%;
+    margin:auto 0;
+}
+
+#Q3-text p{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#Q3-image{
+    width:35%;
+    margin-right:4vw;
+}
+
 
 /*  Inspiration Section */
 
@@ -175,8 +247,8 @@ nav a{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:100vh;
-    margin-top:10vh;
+    height:auto;
+    margin:14vh 0;
 }
 
 #inspo-text{
@@ -201,6 +273,30 @@ nav a{
     display:flex;
     justify-content:center;
     align-items:center;
+    padding-right:6vw;
+}
+
+/* Conclusion */
+
+#conclusion{
+    width:55%;
+    margin:0 auto;
+    margin-bottom:14vh;
+}
+
+#concolusion h2{
+    text-align: center;
+    margin-bottom:5vh;
+    color:#484848;
+    font-size:calc(5px + 1.5vw);
+}
+
+#conclusion p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
 }
 
  /* Hide Hamburger Icon*/
