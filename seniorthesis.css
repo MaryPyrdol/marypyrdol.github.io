@@ -112,7 +112,7 @@ video{
 /* Thesis Statement */
 
 #introduction{
-    width:55%;
+    width:45%;
     margin:0 auto;
     margin-bottom:14vh;
 }
@@ -127,7 +127,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -213,7 +213,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -252,7 +252,7 @@ video{
     color:#484848;
     margin-top:6vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -271,7 +271,7 @@ video{
 
 #question-text p{
     color:#484848;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -294,7 +294,7 @@ video{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    margin-bottom:10vh;
+    margin:30vh 0;
     height:auto;
 }
 
@@ -305,7 +305,7 @@ video{
 
 #question-2-text p{
     color:#484848;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -328,9 +328,8 @@ video{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:60vh;
-    margin-top:22vh;
-    margin-bottom:22vh;
+    height:auto;
+    margin:20vh 0;
 }
 
 #problem-text{
@@ -351,7 +350,7 @@ video{
     color:#484848;
     margin-top: 2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -365,9 +364,9 @@ video{
 /* My Hypothesis */
 
 #my-hypothesis{
-    width:55%;
-    margin:0 auto;
-    margin-bottom:14vh;
+    width:45%;
+    margin:18vh auto;
+    height:auto;
 }
 
 #my-hypothesis h2{
@@ -380,7 +379,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -388,9 +387,9 @@ video{
 /* Process */
 
 #process{
-    width:55%;
-    margin:0 auto;
-    margin-bottom:14vh;
+    width:45%;
+    margin:14vh auto;
+    height:auto;
 }
 
 #process h2{
@@ -403,7 +402,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -466,7 +465,7 @@ video{
 /* Experiments */
 
 #experiments{
-    width:55%;
+    width:45%;
     margin:0 auto;
     margin-bottom:14vh;
     margin-top:14vh;
@@ -482,7 +481,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -607,7 +606,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -624,7 +623,7 @@ video{
 .btn41-43 {
     padding: 1.5vh 2.5vw;
     font-weight: 500;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     background: transparent;
     outline: none !important;
     cursor: pointer;
@@ -671,7 +670,7 @@ video{
   /* Competitive Audit section 1 */
 
 #audit-1{
-    width:55%;
+    width:45%;
     margin-top:20vh;
     margin-bottom:10vh;
     margin-left:auto;
@@ -688,7 +687,7 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -702,10 +701,10 @@ video{
     margin:0 auto;
 }
 
-/* COmpetitive Audit section 3 */
+/* Competitive Audit section 3 */
 
 #audit-3{
-    width:55%;
+    width:45%;
     margin:10vh auto;
 }
 
@@ -713,8 +712,119 @@ video{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
+}
+
+/* Mockups Section 1*/
+
+#mockup-section-1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-top:20vh;
+    margin-bottom:10vh;
+}
+
+#mockup-text-1{
+    width:40%;
+    color:#484848;
+    margin:auto 0;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#mockup-text-1 h2{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#mockup-text-1 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#mockup-image-1{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:4vw;
+}
+
+/* Mockup section 2 */
+
+#mockup-section-2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-top:20vh;
+    margin-bottom:10vh;
+}
+
+#mockup-text-2{
+    width:40%;
+    color:#484848;
+    margin:auto 0;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#mockup-text-2 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#mockup-image-2{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:4vw;
+}
+
+/* Mockup section 3 */
+
+#mockup-section-3{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-top:20vh;
+    margin-bottom:10vh;
+}
+
+#mockup-text-3{
+    width:40%;
+    color:#484848;
+    margin:auto 0;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#mockup-text-3 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#mockup-image-3{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:4vw;
 }
 
  /* Hide Hamburger Icon*/
