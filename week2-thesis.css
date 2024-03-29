@@ -81,11 +81,11 @@ nav a{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:50vh;
+    height:auto;
 }
 
 #intro-text{
-    width:55%;
+    width:45%;
     color:#484848;
     display:grid;
     justify-content: center;
@@ -104,7 +104,7 @@ nav a{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -125,6 +125,7 @@ nav a{
     justify-content: center;
     margin-bottom:4vh;
     text-align:center;
+    height:auto;
 }
 
 #gif-box-1{
@@ -150,7 +151,7 @@ nav a{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:60vh;
+    height:auto;
     margin-top:10vh;
 }
 
@@ -167,7 +168,7 @@ nav a{
 #inspo-text p{
     color:#484848;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 

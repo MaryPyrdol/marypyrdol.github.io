@@ -78,16 +78,17 @@ nav a{
 /* Introduction */
 
 #introduction{
-    width:52%;
+    width:45%;
     margin:0 auto;
     margin-bottom:4vh;
+    height:auto;
 }
 
 #introduction p{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -99,6 +100,7 @@ nav a{
     display:flex;
     justify-content: center;
     align-items: center;
+    height:auto;
 }
 
 #logo-1{
@@ -116,6 +118,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    height:auto;
 }
 
 #logo-2-1{
@@ -133,7 +136,7 @@ nav a{
 #logo-2-1 p{
     color:#484848;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -163,7 +166,7 @@ nav a{
 #stamp-2 p{
     color:#484848;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -193,7 +196,7 @@ nav a{
 #stamps-2-1 p{
     color:#484848;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 

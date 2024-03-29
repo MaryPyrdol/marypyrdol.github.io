@@ -78,9 +78,10 @@ nav a{
 /* Introduction */
 
 #introduction{
-    width:55%;
+    width:45%;
     margin:0 auto;
     margin-bottom:14vh;
+    height:auto;
 }
 
 #introduction h2{
@@ -94,7 +95,7 @@ nav a{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
@@ -109,6 +110,7 @@ nav a{
     margin-top:6vh;
     margin-bottom:14vh;
     text-align:center;
+    height:auto;
 }
 
 .poster-box{
@@ -123,7 +125,7 @@ nav a{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:100vh;
+    height:auto;
     margin-top:10vh;
 }
 
@@ -140,7 +142,7 @@ nav a{
 #inspo-text p{
     color:#484848;
     margin-bottom:2vh;
-    font-size:calc(5px + .8vw);
+    font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
