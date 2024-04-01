@@ -721,6 +721,7 @@ video{
     margin-bottom:10vh;
     margin-left:auto;
     margin-right:auto;
+    height:auto;
 }
 
 #audit-1 h2{
@@ -744,7 +745,22 @@ video{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    height:auto;
     margin:0 auto;
+}
+
+#audit-2-img-1{
+    width:100%;
+    border-radius:20px 0 0 20px;
+}
+
+#audit-2-img-2{
+    width:100%;
+}
+
+#audit-2-img-3{
+    width:100%;
+    border-radius:0 20px 20px 0;
 }
 
 /* Competitive Audit section 3 */
@@ -752,6 +768,7 @@ video{
 #audit-3{
     width:45%;
     margin:10vh auto;
+    height:auto;
 }
 
 #audit-3 p{
@@ -1244,6 +1261,75 @@ video{
     #experiment-box-4{width:40%;height:auto;}
     #experiment-box-4 p{font-size:calc(1px + 2vw);}
 
+    /* thesis interview */
+
+    #interview{flex-direction:column;align-items:center;margin:10vh 0;}
+    #interview-text{width:70%;}
+    #interview-text h2{font-size:calc(1px + 3vw);}
+    #interview-text p{font-size:calc(1px + 2vw);}
+    .btn41-43{font-size:calc(1px + 2vw);margin-left:18vw;margin-right:18vw;}
+    #interview-image{width:70%;padding-left:0;}
+
+    /* Competitive Audit */
+
+    #audit-1{width:70%;margin-bottom:4vh;}
+    #audit-1 h2{font-size:calc(1px + 3vw);}
+    #audit-1 p{font-size:calc(1px + 2vw);}
+    #audit-2{flex-direction:column;align-items:center;width:60%;}
+    #audit-2-img-1{border-radius:20px;margin:2vh 0;}
+    #audit-2-img-2{border-radius:20px;margin:2vh 0;}
+    #audit-2-img-3{border-radius:20px;margin:2vh 0;}
+    #audit-3{width:70%;}
+    #audit-3 p{font-size:calc(1px + 2vw);}
+
+    /* mockups */
+
+    #mockup-section-1{flex-direction:column;align-items: center;margin-bottom:0;}
+    #mockup-text-1{width:70%;}
+    #mockup-text-1 h2{font-size:calc(1px + 3vw);}
+    #mockup-text-1 p{font-size:calc(1px + 2vw);}
+    #mockup-image-1{width:70%;padding-left:0;margin:2vh 0;}
+    #mockup-section-2{flex-direction:column;align-items: center;margin-top:2vh;margin-bottom:0;}
+    #mockup-text-2{width:70%;}
+    #mockup-text-2 p{font-size:calc(1px + 2vw);}
+    #mockup-image-2{width:70%;padding-left:0;margin:2vh 0;}
+    #mockup-section-3{flex-direction:column;align-items: center;margin-top:2vh;margin-bottom:0;}
+    #mockup-text-3{width:70%;}
+    #mockup-text-3 p{font-size:calc(1px + 2vw);}
+    #mockup-image-3{width:70%;padding-left:0;margin:2vh 0;}
+
+    /* design solutions */
+
+    #solutions-1{width:70%;}
+    #solutions-1 h2{font-size:calc(1px + 3vw);}
+    #solutions-1 p{font-size:calc(1px + 2vw);}
+    #solutions-2{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-2-image{width:70%;padding-right:0;margin-bottom:2vh;}
+    #solutions-2-text{width:70%;}
+    #solutions-2-text p{font-size:calc(1px + 2vw);}
+    #solutions-3{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-3-image{width:70%;padding-right:0;margin:2vh 0;}
+    #solutions-3-text{width:70%;}
+    #solutions-3-text p{font-size:calc(1px + 2vw);}
+    #solutions-4{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-4-image{width:70%;padding-right:0;margin:2vh 0;}
+    #solutions-4-text{width:70%;}
+    #solutions-4-text p{font-size:calc(1px + 2vw);}
+    #solutions-5{flex-direction:column-reverse;align-items:center;margin:4vh 0;}
+    #solutions-5-image{width:70%;padding-left:0;margin:2vh 0;}
+    #solutions-5-text{width:70%;}
+    #solutions-5-text p{font-size:calc(1px + 2vw);}
+    #solutions-6{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-6-image{width:70%;padding-right:0;margin:2vh 0;}
+    #solutions-6-text{width:70%;}
+    #solutions-6-text p{font-size:calc(1px + 2vw);}
+
+    /* conclusion */
+
+    #conclusion-1{width:70%;}
+    #conclusion-1 h2{font-size:calc(1px + 3vw);}
+    #conclusion-1 p{font-size:calc(1px + 2vw);}
+
  }
 
  @media only screen and (max-width:600px){
@@ -1358,4 +1444,73 @@ video{
     #experiment-box-3 p{font-size:calc(1px + 3vw);}
     #experiment-box-4{width:70%;margin:4vh 0;height:auto;}
     #experiment-box-4 p{font-size:calc(1px + 3vw);}
+
+    /* thesis interview */
+
+    #interview{flex-direction:column;align-items:center;margin:10vh 0;}
+    #interview-text{width:85%;}
+    #interview-text h2{font-size:calc(1px + 4vw);}
+    #interview-text p{font-size:calc(1px + 3vw);}
+    .btn41-43{font-size:calc(1px + 3vw);margin:4vh 19vw;margin-bottom:6vh;}
+    #interview-image{width:90%;padding-left:0;}
+
+    /* Competitive Audit */
+
+    #audit-1{width:85%;margin-bottom:4vh;}
+    #audit-1 h2{font-size:calc(1px + 4vw);}
+    #audit-1 p{font-size:calc(1px + 3vw);}
+    #audit-2{flex-direction:column;align-items:center;width:90%;}
+    #audit-2-img-1{border-radius:20px;margin:2vh 0;}
+    #audit-2-img-2{border-radius:20px;margin:2vh 0;}
+    #audit-2-img-3{border-radius:20px;margin:2vh 0;}
+    #audit-3{width:85%;}
+    #audit-3 p{font-size:calc(1px + 3vw);}
+
+    /* mockups */
+
+    #mockup-section-1{flex-direction:column;align-items: center;margin-bottom:0;}
+    #mockup-text-1{width:85%;}
+    #mockup-text-1 h2{font-size:calc(1px + 4vw);}
+    #mockup-text-1 p{font-size:calc(1px + 3vw);}
+    #mockup-image-1{width:90%;padding-left:0;margin:2vh 0;}
+    #mockup-section-2{flex-direction:column;align-items: center;margin-top:2vh;margin-bottom:0;}
+    #mockup-text-2{width:85%;}
+    #mockup-text-2 p{font-size:calc(1px + 3vw);}
+    #mockup-image-2{width:90%;padding-left:0;margin:2vh 0;}
+    #mockup-section-3{flex-direction:column;align-items: center;margin-top:2vh;margin-bottom:0;}
+    #mockup-text-3{width:85%;}
+    #mockup-text-3 p{font-size:calc(1px + 3vw);}
+    #mockup-image-3{width:90%;padding-left:0;margin:2vh 0;}
+
+    /* design solutions */
+
+    #solutions-1{width:85%;}
+    #solutions-1 h2{font-size:calc(1px + 4vw);}
+    #solutions-1 p{font-size:calc(1px + 3vw);}
+    #solutions-2{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-2-image{width:90%;padding-right:0;margin-bottom:2vh;}
+    #solutions-2-text{width:85%;}
+    #solutions-2-text p{font-size:calc(1px + 3vw);}
+    #solutions-3{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-3-image{width:90%;padding-right:0;margin:2vh 0;}
+    #solutions-3-text{width:85%;}
+    #solutions-3-text p{font-size:calc(1px + 3vw);}
+    #solutions-4{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-4-image{width:90%;padding-right:0;margin:2vh 0;}
+    #solutions-4-text{width:85%;}
+    #solutions-4-text p{font-size:calc(1px + 3vw);}
+    #solutions-5{flex-direction:column-reverse;align-items:center;margin:4vh 0;}
+    #solutions-5-image{width:90%;padding-left:0;margin:2vh 0;}
+    #solutions-5-text{width:85%;}
+    #solutions-5-text p{font-size:calc(1px + 3vw);}
+    #solutions-6{flex-direction:column;align-items:center;margin:4vh 0;}
+    #solutions-6-image{width:90%;padding-right:0;margin:2vh 0;}
+    #solutions-6-text{width:85%;}
+    #solutions-6-text p{font-size:calc(1px + 3vw);}
+
+    /* conclusion */
+
+    #conclusion-1{width:85%;}
+    #conclusion-1 h2{font-size:calc(1px + 4vw);}
+    #conclusion-1 p{font-size:calc(1px + 3vw);}
  }
