@@ -1136,13 +1136,12 @@ video{
     /* how it works */
 
     #how-it-works{font-size:calc(1px + 3vw);}
-    #hiw-boxes{flex-direction:column;align-content: center;}
-    #hiw-box-1{width:70%;margin-bottom:8vh;}
-    #hiw-box-1 p{font-size:calc(1px + 2vw);}
-    #hiw-box-2{width:70%;margin-bottom:8vh;}
-    #hiw-box-2 p{font-size:calc(1px + 2vw);}
-    #hiw-box-3{width:70%;margin-bottom:0;}
-    #hiw-box-3 p{font-size:calc(1px + 2vw);}
+    #hiw-box-1{border-radius:20px;}
+    #hiw-box-1 p{font-size:calc(1px + 1.5vw);}
+    #hiw-box-2{border-radius:20px;}
+    #hiw-box-2 p{font-size:calc(1px + 1.5vw);}
+    #hiw-box-3{border-radius:20px;}
+    #hiw-box-3 p{font-size:calc(1px + 1.5vw);}
     .hiw-title{font-size:calc(1px + 2.8vw);}
 
     /* methodology */
