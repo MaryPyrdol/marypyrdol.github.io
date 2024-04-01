@@ -448,6 +448,11 @@ video{
     width:29%;
 }
 
+#process-box-1 img{
+    width:90%;
+    border-radius:40px;
+}
+
 #process-box-1 p{
     color:#484848;
     margin-top:2vh;
@@ -462,6 +467,11 @@ video{
     width:29%;
 }
 
+#process-box-2 img{
+    width:90%;
+    border-radius:40px;
+}
+
 #process-box-2 p{
     color:#484848;
     margin-top:2vh;
@@ -474,6 +484,11 @@ video{
 
 #process-box-3{
     width:29%;
+}
+
+#process-box-3 img{
+    width:90%;
+    border-radius:40px;
 }
 
 #process-box-3 p{
@@ -491,8 +506,9 @@ video{
 #experiments{
     width:45%;
     margin:0 auto;
-    margin-bottom:14vh;
+    margin-bottom:8vh;
     margin-top:14vh;
+    height:auto;
 }
 
 #experiments h2{
@@ -504,9 +520,15 @@ video{
 #experiments p{
     color:#484848;
     margin-top:2vh;
-    margin-bottom:2vh;
+    margin-bottom:0;
     font-size:calc(5px + .7vw);
     line-height: 170%;
+}
+
+#select{
+    font-size:calc(5px + .7vw);
+    margin-top:4vh;
+    text-align:center;
 }
 
 /* Experiment images and captions */
@@ -1159,9 +1181,68 @@ video{
     #methodology-2-text p{font-size:calc(1px + 2vw);}
     #triangle-image{width:70%;margin-right:0;}
 
-    /* Question section */
+    /* Question section 1 */
 
+    #questioning{flex-direction:column;align-items:center;margin-top:10vh;}
+    #question-text{width:70%;}
+    #question-text p{font-size:calc(1px + 2vw);}
+    #big-questions{width:70%;padding-left:0;margin:2vh 0;}
+    #big-questions h2{font-size:calc(1px + 2.2vw);text-align:center;}
 
+    /* question section 2 */
+
+    #questioning-2{flex-direction:column;align-items:center;}
+    #question-2-text{width:70%;}
+    #question-2-text p{font-size:calc(1px + 2vw);}
+    #big-questions-2{width:70%;padding-left:0;margin:2vh 0;}
+    #big-questions-2 h2{font-size:calc(1px + 2.2vw);text-align:center;}
+
+    /* the problem */
+
+    #the-problem{flex-direction:column-reverse;align-items:center;margin:10vh 0;}
+    #problem-text{width:70%;}
+    #problem-text h2{font-size:calc(1px + 3vw);}
+    #problem-text p{font-size:calc(1px + 2vw);}
+    #problem-image{width:70%;margin-top:2vh;}
+
+    /* my hypothesis */
+
+    #my-hypothesis{width:70%;}
+    #my-hypothesis h2{font-size:calc(1px + 3vw);}
+    #my-hypothesis p{font-size:calc(1px + 2vw);}
+
+    /* process */
+
+    #process{width:70%;}
+    #process h2{font-size:calc(1px + 3vw);}
+    #process p{font-size:calc(1px + 2vw);}
+
+    /* process images */
+
+    #process-box-1 img{border-radius:16px;}
+    #process-box-1 p{font-size:calc(1px + 2vw);}
+    #process-box-2 img{border-radius:16px;}
+    #process-box-2 p{font-size:calc(1px + 2vw);}
+    #process-box-3 img{border-radius:16px;}
+    #process-box-3 p{font-size:calc(1px + 2vw);}
+
+    /* experiments */
+
+    #experiments{width:70%;}
+    #experiments h2{font-size:calc(1px + 3vw);}
+    #experiments p{font-size:calc(1px + 2vw);}
+    #select{font-size:calc(1px + 2vw);}
+
+    /* experiment boxes */
+
+    #experiment-box-1{width:40%;height:auto;}
+    #experiment-box-1 p{font-size:calc(1px + 2vw);}
+    #experiment-box-2{width:40%;height:auto;}
+    #experiment-box-2 p{font-size:calc(1px + 2vw);}
+    #experiment-box-3{width:40%;height:auto;}
+    #experiment-box-3 p{font-size:calc(1px + 2vw);}
+    #experiment-box-4{width:40%;height:auto;}
+    #experiment-box-4 p{font-size:calc(1px + 2vw);}
 
  }
 
@@ -1178,7 +1259,7 @@ video{
      /* Table of Contents */
 
     #table-of-contents h2{font-size:calc(1px + 4vw);}
-    #table-of-contents h3{font-size:calc(1px + 3.5vw);}
+    #table-of-contents h3{font-size:calc(1px + 3.5vw);margin:3.5vh 0;}
 
      /* thesis statement */
 
@@ -1212,4 +1293,69 @@ video{
     #methodology-2-text{width:85%;}
     #methodology-2-text p{font-size:calc(1px + 3vw);}
     #triangle-image{width:100%;margin-right:0;}
+
+    /* Question section 1 */
+
+    #questioning{flex-direction:column;align-items:center;margin-top:6vh;}
+    #question-text{width:85%;}
+    #question-text p{font-size:calc(1px + 3vw);}
+    #big-questions{width:85%;padding-left:0;margin:2vh 0;}
+    #big-questions h2{font-size:calc(1px + 4vw);text-align:center;}
+
+    /* question section 2 */
+
+    #questioning-2{flex-direction:column;align-items:center;margin-bottom:16vh;}
+    #question-2-text{width:85%;margin:2vh 0;}
+    #question-2-text p{font-size:calc(1px + 3vw);}
+    #big-questions-2{width:85%;padding-left:0;margin:2vh 0;}
+    #big-questions-2 h2{font-size:calc(1px + 4vw);text-align:center;}
+
+    /* the problem */
+
+    #the-problem{flex-direction:column-reverse;align-items:center;margin:8vh 0;}
+    #problem-text{width:85%;}
+    #problem-text h2{font-size:calc(1px + 4vw);}
+    #problem-text p{font-size:calc(1px + 3vw);}
+    #problem-image{width:100%;margin-top:2vh;display:flex;align-items:center;justify-content: center;}
+
+    /* my hypothesis */
+
+    #my-hypothesis{width:85%;}
+    #my-hypothesis h2{font-size:calc(1px + 4vw);}
+    #my-hypothesis p{font-size:calc(1px + 3vw);}
+
+    /* process */
+
+    #process{width:85%;margin-bottom:2vh;}
+    #process h2{font-size:calc(1px + 4vw);}
+    #process p{font-size:calc(1px + 3vw);}
+
+    /* process boxes */
+
+    #process-boxes{flex-direction:column;align-items:center;}
+    #process-box-1{width:80%;margin:2vh 0;}
+    #process-box-1 p{font-size:calc(1px + 3vw);}
+    #process-box-2{width:80%;margin:2vh 0;}
+    #process-box-2 p{font-size:calc(1px + 3vw);}
+    #process-box-3{width:80%;margin:2vh 0;}
+    #process-box-3 p{font-size:calc(1px + 3vw);}
+
+    /* experiments */
+
+    #experiments{width:85%;}
+    #experiments h2{font-size:calc(1px + 4vw);}
+    #experiments p{font-size:calc(1px + 3vw);}
+    #select{font-size:calc(1px + 3vw);}
+
+    /* experiment boxes */
+
+    #experiment-boxes{flex-direction:column;align-items:center;}
+    #experiment-box-1{width:70%;margin:4vh 0;height:auto;}
+    #experiment-box-1 p{font-size:calc(1px + 3vw);}
+    #experiment-box-2{width:70%;margin:4vh 0;height:auto;}
+    #experiment-box-2 p{font-size:calc(1px + 3vw);}
+    #experiment-box-3{width:70%;margin:4vh 0;height:auto;}
+    #experiment-box-3 p{font-size:calc(1px + 3vw);}
+    #experiment-box-4{width:70%;margin:4vh 0;height:auto;}
+    #experiment-box-4 p{font-size:calc(1px + 3vw);}
  }
