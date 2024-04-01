@@ -75,12 +75,23 @@ header nav a{
     text-align:center;
 }
 
+/* project title*/
+
+#project-title{
+    text-align:center;
+    margin-bottom:5vh;
+    color:#484848;
+    font-size:calc(5px + 1.5vw);
+    height:auto;
+}
+
 /* Thesis Video */
 
 video{
     display:block;
     margin:0 auto;
     border-radius:60px;
+    height:auto;
     margin-bottom:6vh;
 }
 
@@ -88,9 +99,9 @@ video{
 
 #table-of-contents{
     color:#484848;
-    margin-top:10vh;
-    margin-bottom:10vh;
+    margin:14vh 0;
     text-align:center;
+    height:auto;
 }
 
 #table-of-contents h2{
@@ -133,6 +144,13 @@ video{
 
 /* How it Works section */
 
+#how-it-works{
+    text-align:center;
+    color:#484848;
+    margin-bottom:0;
+    font-size:calc(5px + 1.5vw);
+}
+
 #hiw-boxes{
     display:flex;
     flex-direction:row;
@@ -140,6 +158,7 @@ video{
     justify-content: center;
     margin-top:6vh;
     margin-bottom:14vh;
+    height:auto;
     text-align:center;
 }
 
@@ -185,6 +204,9 @@ video{
     line-height: 165%;
 }
 
+.hiw-title{
+    font-size:calc(5px + .9vw);
+}
 
 /* Methodology Section 1 */
 
@@ -791,7 +813,7 @@ video{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-right:4vw;
+    padding-left:4vw;
 }
 
 /* Mockup section 3 */
@@ -880,7 +902,7 @@ video{
     line-height: 170%;
 }
 
-.solutions-2-image{
+#solutions-2-image{
     width:40%;
     display:flex;
     justify-content: center;
@@ -959,6 +981,100 @@ video{
     padding-right:4vw;
 }
 
+/* Design Solutions section 5 */
+
+#solutions-5{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-top:20vh;
+    margin-bottom:10vh;
+}
+
+#solutions-5-text{
+    width:40%;
+    color:#484848;
+    margin:auto 0;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#solutions-5-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#solutions-5-image{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:4vw;
+}
+
+/* Design Solutions section 6 */
+
+#solutions-6{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:auto;
+    margin-top:20vh;
+    margin-bottom:10vh;
+}
+
+#solutions-6-text{
+    width:40%;
+    color:#484848;
+    margin:auto 0;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#solutions-6-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
+#solutions-6-image{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:4vw;
+}
+
+/* Conclusion */
+
+  #conclusion-1{
+    width:45%;
+    margin-top:20vh;
+    margin-bottom:10vh;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#conclusion-1 h2{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#conclusion-1 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+}
+
  /* Hide Hamburger Icon*/
  #hamnav label, #hamburger{display:none;}
  /* Small Screens */
@@ -985,6 +1101,8 @@ video{
  #hamnav input:checked ~ #ham-items{display:block;}
  }
 
+
+
  @media only screen and (max-width:786px){
    /* html, body{width:90%;}*/
     header h2{padding-left:0;display:flex;justify-content: center;}
@@ -995,10 +1113,100 @@ video{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* project title */
+    #page-title h1{font-size:calc(1px + 4vw);}
+    #project-title{font-size:calc(1px + 3vw);}
+
+    /* video */
+
+    video{width:90%;border-radius:20px;}
+    
+    /* Table of Contents */
+
+    #table-of-contents h2{font-size:calc(1px + 3vw);}
+    #table-of-contents h3{font-size:calc(1px + 2.5vw);}
+
+    /* thesis statement */
+
+    #introduction{width:70%;}
+    #introduction h2{font-size:calc(1px + 3vw);}
+    #introduction p{font-size:calc(1px + 2vw);}
+
+    /* how it works */
+
+    #how-it-works{font-size:calc(1px + 3vw);}
+    #hiw-boxes{flex-direction:column;align-content: center;}
+    #hiw-box-1{width:70%;margin-bottom:8vh;}
+    #hiw-box-1 p{font-size:calc(1px + 2vw);}
+    #hiw-box-2{width:70%;margin-bottom:8vh;}
+    #hiw-box-2 p{font-size:calc(1px + 2vw);}
+    #hiw-box-3{width:70%;margin-bottom:0;}
+    #hiw-box-3 p{font-size:calc(1px + 2vw);}
+    .hiw-title{font-size:calc(1px + 2.8vw);}
+
+    /* methodology */
+
+    #methodology{flex-direction:column;align-items:center;}
+    #methodology-text{width:70%;}
+    #methodology-text h2{font-size:calc(1px + 3vw);}
+    #methodology-text p{font-size:calc(1px + 2vw);}
+    #methodology-image{width:70%;padding-left:0;margin-top:2vh;}
+
+    /* methodology section 2 */
+
+    #methodology-2{flex-direction:column;align-items:center;margin:8vh 0;}
+    #methodology-2-text{width:70%;}
+    #methodology-2-text p{font-size:calc(1px + 2vw);}
+    #triangle-image{width:70%;margin-right:0;}
+
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /*page title and project title*/
+
+     #page-title h1{font-size:calc(1px + 5vw);}
+     #project-title{font-size:calc(1px + 4vw);}
+
+     /* Table of Contents */
+
+    #table-of-contents h2{font-size:calc(1px + 4vw);}
+    #table-of-contents h3{font-size:calc(1px + 3.5vw);}
+
+     /* thesis statement */
+
+     #introduction{width:85%;}
+     #introduction h2{font-size:calc(1px + 4vw);}
+     #introduction p{font-size:calc(1px + 2.5vw);}
+
+     /* how it works */
+
+     #how-it-works{font-size:calc(1px + 4vw);}
+     #hiw-boxes{flex-direction:column;align-content: center;}
+     #hiw-box-1{width:90%;}
+     #hiw-box-1 p{font-size:calc(1px + 2.5vw);}
+     #hiw-box-2{width:90%;}
+    #hiw-box-2 p{font-size:calc(1px + 2.5vw);}
+    #hiw-box-3{width:90%;margin-bottom:0;}
+    #hiw-box-3 p{font-size:calc(1px + 2.5vw);}
+     .hiw-title{font-size:calc(1px + 2.8vw);}
+
+     /* methodology */
+
+    #methodology{flex-direction:column;align-items:center;margin:2vh 0;}
+    #methodology-text{width:85%;}
+    #methodology-text h2{font-size:calc(1px + 4vw);}
+    #methodology-text p{font-size:calc(1px + 2.5vw);}
+    #methodology-image{width:90%;padding-left:0;margin-top:2vh;}
+
+    /* methodology section 2 */
+
+    #methodology-2{flex-direction:column;align-items:center;margin:8vh 0;}
+    #methodology-2-text{width:85%;}
+    #methodology-2-text p{font-size:calc(1px + 2.5vw);}
+    #triangle-image{width:100%;margin-right:0;}
  }
