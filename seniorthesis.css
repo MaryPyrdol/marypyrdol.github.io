@@ -1185,18 +1185,18 @@ video{
 
      #introduction{width:85%;}
      #introduction h2{font-size:calc(1px + 4vw);}
-     #introduction p{font-size:calc(1px + 2.5vw);}
+     #introduction p{font-size:calc(1px + 3vw);}
 
      /* how it works */
 
      #how-it-works{font-size:calc(1px + 4vw);}
      #hiw-boxes{flex-direction:column;align-content: center;}
      #hiw-box-1{width:90%;}
-     #hiw-box-1 p{font-size:calc(1px + 2.5vw);}
+     #hiw-box-1 p{font-size:calc(1px + 3vw);}
      #hiw-box-2{width:90%;}
-    #hiw-box-2 p{font-size:calc(1px + 2.5vw);}
+    #hiw-box-2 p{font-size:calc(1px + 3vw);}
     #hiw-box-3{width:90%;margin-bottom:0;}
-    #hiw-box-3 p{font-size:calc(1px + 2.5vw);}
+    #hiw-box-3 p{font-size:calc(1px + 3vw);}
      .hiw-title{font-size:calc(1px + 2.8vw);}
 
      /* methodology */
@@ -1204,13 +1204,13 @@ video{
     #methodology{flex-direction:column;align-items:center;margin:2vh 0;}
     #methodology-text{width:85%;}
     #methodology-text h2{font-size:calc(1px + 4vw);}
-    #methodology-text p{font-size:calc(1px + 2.5vw);}
+    #methodology-text p{font-size:calc(1px + 3vw);}
     #methodology-image{width:90%;padding-left:0;margin-top:2vh;}
 
     /* methodology section 2 */
 
     #methodology-2{flex-direction:column;align-items:center;margin:8vh 0;}
     #methodology-2-text{width:85%;}
-    #methodology-2-text p{font-size:calc(1px + 2.5vw);}
+    #methodology-2-text p{font-size:calc(1px + 3vw);}
     #triangle-image{width:100%;margin-right:0;}
  }
