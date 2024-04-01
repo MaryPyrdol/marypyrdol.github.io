@@ -1190,9 +1190,9 @@ video{
 
      #how-it-works{font-size:calc(1px + 4vw);}
      #hiw-boxes{flex-direction:column;align-content: center;}
-     #hiw-box-1{width:90%;}
+     #hiw-box-1{width:90%;margin-bottom:8vh;}
      #hiw-box-1 p{font-size:calc(1px + 3vw);}
-     #hiw-box-2{width:90%;}
+     #hiw-box-2{width:90%;margin-bottom:8vh;}
     #hiw-box-2 p{font-size:calc(1px + 3vw);}
     #hiw-box-3{width:90%;margin-bottom:0;}
     #hiw-box-3 p{font-size:calc(1px + 3vw);}
