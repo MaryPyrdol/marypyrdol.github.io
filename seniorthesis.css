@@ -1109,7 +1109,7 @@ video{
     #name-div{width:40%;}
     #name-div h2{font-size:calc(4px + 3.5vw);align-items: flex-end;}
     #nav-div{width:55%;}
-    nav li{font-size: calc(3vw + 10px);}
+    header nav li{font-size: calc(3vw + 10px);}
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
@@ -1159,6 +1159,10 @@ video{
     #methodology-2-text{width:70%;}
     #methodology-2-text p{font-size:calc(1px + 2vw);}
     #triangle-image{width:70%;margin-right:0;}
+
+    /* Question section */
+
+
 
  }
 
