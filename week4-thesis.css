@@ -84,6 +84,13 @@ nav a{
     height:auto;
 }
 
+#week4-title{
+    text-align: center;
+    margin-bottom:5vh;
+    color:#484848;
+    font-size:calc(5px + 1.3vw);
+}
+
 #introduction p{
     color:#484848;
     margin-top:2vh;
@@ -236,10 +243,65 @@ nav a{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* introduction */
+
+    #introduction{width:70%;}
+    #introduction h2{font-size:calc(1px + 3vw);}
+    #introduction p{font-size:calc(1px + 2vw);}
+
+    /* logo images */
+
+    #logo{flex-direction:column;align-items: center;}
+    #logo-1{width:80%;display:flex;margin:auto;align-items:center;justify-content: center;margin:2vh 0;}
+    #logo-2{width:80%;margin:2vh 0;}
+    #logo-part2{flex-direction:column;align-items: center;}
+    #logo-2-1{width:70%;}
+    #logo-2-1 p{font-size:calc(1px + 2vw);margin:2vh 0;}
+    #logo-2-2{width:70%;}
+
+    /* stamps */
+
+    #stamps{flex-direction:column-reverse;align-items: center;margin-top:4vh;}
+    #stamp-1{width:70%;}
+    #stamp-2{width:70%;margin:8vh 0;}
+    #stamp-2 p{font-size:calc(1px + 2vw);}
+    #stamps-part2{flex-direction:column;align-items: center;}
+    #stamps-2-2{width:70%;margin:4vh 0;}
+    #stamps-2-1{width:70%;}
+    #stamps-2-1 p{font-size:calc(1px + 2vw);}
+
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* introduction */
+
+    #introduction{width:85%;}
+    #introduction h2{font-size:calc(1px + 4vw);}
+    #introduction p{font-size:calc(1px + 3vw);}
+
+    /* logo images */
+
+    #logo{flex-direction:column;align-items: center;}
+    #logo-1{display:flex;margin:auto;align-items:center;justify-content: center;margin:2vh 0;}
+    #logo-2{width:100%;margin:2vh 0;}
+    #logo-part2{flex-direction:column;align-items: center;}
+    #logo-2-1{width:85%;}
+    #logo-2-1 p{font-size:calc(1px + 3vw);margin:2vh 0;}
+    #logo-2-2{width:100%;}
+
+    /* stamps */
+
+    #stamps{flex-direction:column-reverse;align-items: center;margin-top:4vh;}
+    #stamp-1{width:100%;}
+    #stamp-2{width:85%;margin:8vh 0;}
+    #stamp-2 p{font-size:calc(1px + 3vw);}
+    #stamps-part2{flex-direction:column;align-items: center;}
+    #stamps-2-2{width:90%;margin:4vh 0;}
+    #stamps-2-1{width:85%;}
+    #stamps-2-1 p{font-size:calc(1px + 3vw);}
  }
