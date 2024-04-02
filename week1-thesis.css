@@ -189,10 +189,44 @@ nav a{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* introduction */
+
+    #introduction{width:70%;}
+    #introduction h2{font-size:calc(1px + 3vw);}
+    #introduction p{font-size:calc(1px + 2vw);}
+
+    /* posters */
+
+    .poster-box{width:40%;margin:2vw;}
+
+    /* inspo section */
+
+    #inspo{flex-direction:column-reverse;align-items:center;}
+    #inspo-text{width:70%;margin-bottom:4vh;}
+    #inspo-text p{font-size:calc(1px + 2vw);}
+    #inspo-image{width:70%;}
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* introduction */
+
+    #introduction{width:85%;margin-bottom:2vh;}
+    #introduction h2{font-size:calc(1px + 4vw);}
+    #introduction p{font-size:calc(1px + 3vw);}
+
+    /* posters */
+
+    .poster-box{width:80%;margin:1vh 0;}
+
+    /* inspo section */
+
+    #inspo{flex-direction:column-reverse;align-items:center;}
+    #inspo-text{width:85%;margin-bottom:4vh;}
+    #inspo-text p{font-size:calc(1px + 3vw);}
+    #inspo-image{width:100%;}
  }
