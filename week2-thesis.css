@@ -75,6 +75,13 @@ nav a{
     text-align:center;
 }
 
+#week2-title{
+    text-align: center;
+    margin-bottom:2vh;
+    color:#484848;
+    font-size:calc(5px + 1.3vw);
+}
+
 /* Introduction */
 
 #introduction{
@@ -108,14 +115,14 @@ nav a{
     line-height: 170%;
 }
 
-#intro-gif{
+.intro-gif{
     width:26%;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-/* GIF boxes */
+/* GIF and animation frame image boxes */
 
 
 #gif-boxes{
@@ -216,10 +223,56 @@ nav a{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* introduction */
+
+    #week2-title{font-size:calc(1px + 3vw);}
+    #introduction{flex-direction:column;align-items:center;}
+    #intro-text{width:70%;}
+    #intro-text h2{font-size:calc(1px + 3vw);}
+    #introduction p{font-size:calc(1px + 2vw);}
+    .intro-gif{width:50%;}
+
+    /* GIF and animation frame image */
+
+    #gif-boxes{flex-direction:column;align-items:center;}
+    #gif-box-1{margin-left:0;width:70%;}
+    #gif-box-2{width:50%;}
+    #gif-box-3{margin-right:0;width:70%;}
+
+    /* inspiration */
+
+    #inspo{flex-direction:column;align-items:center;margin-top:4vh;}
+    #inspo-text{width:70%;}
+    #inspo-text p{font-size:calc(1px + 2vw);}
+    #inspo-image{width:50%;margin-top:2vh;margin-left:0;}
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* introduction */
+
+    #week2-title{font-size:calc(1px + 4vw);}
+    #introduction{flex-direction:column;align-items:center;}
+    #intro-text{width:85%;}
+    #intro-text h2{font-size:calc(1px + 4vw);}
+    #introduction p{font-size:calc(1px + 3vw);}
+    .intro-gif{width:60%;}
+
+    /* GIF and animation frame image */
+
+    #gif-boxes{flex-direction:column;align-items:center;}
+    #gif-box-1{margin-left:0;width:90%;}
+    #gif-box-2{width:60%;}
+    #gif-box-3{margin-right:0;width:90%;}
+
+    /* inspiration */
+
+    #inspo{flex-direction:column;align-items:center;margin-top:4vh;}
+    #inspo-text{width:85%;}
+    #inspo-text p{font-size:calc(1px + 3vw);}
+    #inspo-image{width:90%;margin-top:2vh;margin-left:0;}
  }
