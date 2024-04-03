@@ -340,10 +340,116 @@ nav a{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* introduction */
+
+    #introduction{width:70%;}
+    #introduction h2{font-size:calc(1px + 3vw);}
+    #introduction p{font-size:calc(1px + 2vw);}
+
+    /* questions */
+
+    #questions{width:70%;margin-bottom:0;}
+    #questions h3{font-size:calc(1px + 2.5vw);}
+    #questions p{font-size:calc(1px + 2vw);}
+
+    /* Question 1 */
+
+    #question-1{flex-direction:column;align-items: center;margin:10vh 0;}
+    #Q1-text{width:70%;margin:4vh 0;}
+    #Q1-text p{font-size:calc(1px + 2vw);}
+    #Q1-image{width:50%;margin-left:0;}
+
+    /* Question 2 */
+
+    #question-2{flex-direction:column-reverse;align-items: center;margin:0;}
+    #Q2-text{width:70%;margin:4vh 0;}
+    #Q2-text p{font-size:calc(1px + 2vw);}
+    #Q2-image{width:70%;margin-right:0;}
+
+    /* Question 2-2 */
+
+    #question-2-2{width:70%;margin:10vh auto;}
+    #question-2-2 p{font-size:calc(1px + 2vw);}
+
+    /* Question 3 */
+
+    #question-3{flex-direction:column;align-items: center;margin:0 auto;}
+    #Q3-text{width:70%;margin:6vh 0;}
+    #Q3-text p{font-size:calc(1px + 2vw);}
+    #Q3-image{width:70%;margin-right:0;}
+
+    /* Inspiration section */
+
+    #inspo{flex-direction:column-reverse;align-items: center;margin:10vh 0;}
+    #inspo-text{width:70%;}
+    #inspo-text p{font-size:calc(1px + 2vw);}
+    #inspo-image{width:70%;margin:6vh 0;}
+
+    /* Conclusion */
+
+    #conclusion{width:70%;}
+    #conclusion p{font-size:calc(1px + 2vw);}
+
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* introduction */
+
+    #introduction{width:85%;}
+    #introduction h2{font-size:calc(1px + 4vw);}
+    #introduction p{font-size:calc(1px + 3vw);}
+
+    /* questions */
+
+    #questions{width:85%;margin-bottom:0;}
+    #questions h3{font-size:calc(1px + 3.5vw);}
+    #questions p{font-size:calc(1px + 3vw);}
+
+    /* Question 1 */
+
+    #question-1{flex-direction:column;align-items: center;margin:10vh 0;}
+    #Q1-text{width:85%;margin:4vh 0;}
+    #Q1-text p{font-size:calc(1px + 3vw);}
+    #Q1-image{width:80%;margin-left:0;}
+
+    /* Question 2 */
+
+    #question-2{flex-direction:column-reverse;align-items: center;margin:0;}
+    #Q2-text{width:85%;margin:4vh 0;}
+    #Q2-text p{font-size:calc(1px + 3vw);}
+    #Q2-image{width:85%;margin-right:0;}
+
+    /* Question 2-2 */
+
+    #question-2-2{width:85%;margin:10vh auto;}
+    #question-2-2 p{font-size:calc(1px + 3vw);}
+
+    /* images */
+
+    #poster-boxes{flex-direction:column;align-items: center;}
+    .poster-box{width:90%;margin:1vh 0;}
+
+    /* Question 3 */
+
+    #question-3{flex-direction:column;align-items: center;margin:0 auto;}
+    #Q3-text{width:85%;margin:6vh 0;}
+    #Q3-text p{font-size:calc(1px + 3vw);}
+    #Q3-image{width:90%;margin-right:0;}
+
+    /* Inspiration section */
+
+    #inspo{flex-direction:column-reverse;align-items: center;margin:10vh 0;}
+    #inspo-text{width:85%;}
+    #inspo-text p{font-size:calc(1px + 3vw);}
+    #inspo-image{width:90%;margin:6vh 0;}
+
+    /* Conclusion */
+
+    #conclusion{width:85%;}
+    #conclusion p{font-size:calc(1px + 3vw);}
  }
