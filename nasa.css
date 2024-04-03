@@ -80,6 +80,7 @@ nav a{
 #introduction{
     width:55%;
     margin:0 auto;
+    height:auto;
 }
 
 #introduction h2{
@@ -143,16 +144,16 @@ nav a{
 
 #nasa-projects{
     width:55%;
-    margin:0 auto;
-    height:40vh;
+    margin:28vh auto;
+    height:auto;
 }
 
 #nasa-projects h2{
     color:#484848;
-    margin-top:8vh;
     margin-bottom:2vh;
     font-size:calc(5px + 1.5vw);
 }
+
 #nasa-projects p{
     color:#484848;
     margin-top:2vh;
@@ -278,7 +279,7 @@ nav a{
 
 #more-1-info{
     width:40%;
-    margin:auto 0;
+    margin:auto;
 }
 
 #more-1-info h3{
@@ -574,10 +575,133 @@ nav a{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* introduction */
+
+    #introduction{width:70%;}
+    #introduction h2{font-size:calc(1px + 3vw);}
+    #introduction p{font-size:calc(1px + 2vw);}
+
+    /* Timeline */
+
+    #nasa-projects{width:70%;margin:14vh auto;}
+    #nasa-projects h2{font-size:calc(1px + 3vw);}
+    #nasa-projects p{font-size:calc(1px + 2vw);}
+
+    /* project 1 */
+
+    #project-1{flex-direction: column;align-items: center;}
+    #project-1-info{width:70%;}
+    #project-1-info h2{font-size:calc(1px + 3vw);}
+    #project-1-info h3{font-size:calc(1px + 2.5vw);}
+    #project-1-info p{font-size:calc(1px + 2vw);}
+    #project-1-images{width:80%;text-align:center;}
+
+    /* button */
+    .btn41-43{font-size:calc(1px + 2vw);margin:10vh 12vw;}
+
+    /* project 1 video */
+
+    #more-project-1{flex-direction: column-reverse;align-items: center;}
+    #more-1-info{width:70%;}
+    #more-1-info h3{font-size:calc(1px + 2.5vw);}
+    #more-1-info p{font-size:calc(1px + 2vw);}
+    #more-video{width:70%;margin:4vh auto;}
+
+    /* project 2 */
+
+    #project-2{flex-direction: column;align-items: center;}
+    #project-2-info{width:70%;}
+    #project-2-info h2{font-size:calc(1px + 3vw);}
+    #project-2-info h3{font-size:calc(1px + 2.5vw);}
+    #project-2-info p{font-size:calc(1px + 2vw);}
+    #project-2-image{width:60%;}
+    #project-2-images.gallery{padding:0;}
+
+    /* project 3 */
+
+    #project-3{flex-direction: column-reverse;align-items: center;}
+    #project-3-info{width:70%;}
+    #project-3-info h2{font-size:calc(1px + 3vw);}
+    #project-3-info h3{font-size:calc(1px + 2.5vw);}
+    #project-3-info p{font-size:calc(1px + 2vw);}
+    #project-3-images{width:80%;display:flex;justify-content:center; align-items:center;}
+    #project-3-images img{margin-top:2vh;}
+
+    /* project 4 */
+
+    #project-4{flex-direction: column;align-items: center;}
+    #project-4-info{width:70%;}
+    #project-4-info h2{font-size:calc(1px + 3vw);}
+    #project-4-info h3{font-size:calc(1px + 2.5vw);}
+    #project-4-info p{font-size:calc(1px + 2vw);}
+    #project-4-images{text-align:center;width:70%;}
+
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* introduction */
+
+    #introduction{width:85%;}
+    #introduction h2{font-size:calc(1px + 4vw);}
+    #introduction p{font-size:calc(1px + 3vw);}
+
+    /* Timeline */
+
+    #nasa-projects{width:70%;margin:14vh auto;}
+    #nasa-projects h2{font-size:calc(1px + 4vw);}
+    #nasa-projects p{font-size:calc(1px + 3vw);}
+
+    /* project 1 */
+
+    #project-1{flex-direction: column;align-items: center;}
+    #project-1-info{width:85%;}
+    #project-1-info h2{font-size:calc(1px + 4vw);}
+    #project-1-info h3{font-size:calc(1px + 3.5vw);}
+    #project-1-info p{font-size:calc(1px + 3vw);}
+    #project-1-images{width:100%;text-align:center;}
+
+    /* button */
+    .btn41-43{font-size:calc(1px + 2.6vw);margin:6vh 12vw;}
+
+    /* project 1 video */
+
+    #more-project-1{flex-direction: column-reverse;align-items: center;}
+    #more-1-info{width:85%;}
+    #more-1-info h3{font-size:calc(1px + 3.5vw);}
+    #more-1-info p{font-size:calc(1px + 3vw);}
+    #more-video{width:100%;margin:4vh auto;}
+
+    /* project 2 */
+
+    #project-2{flex-direction: column;align-items: center;}
+    #project-2-info{width:85%;}
+    #project-2-info h2{font-size:calc(1px + 4vw);}
+    #project-2-info h3{font-size:calc(1px + 3.5vw);}
+    #project-2-info p{font-size:calc(1px + 3vw);}
+    #project-2-image{width:75%;}
+    #project-2-images.gallery{padding:0;}
+
+    /* project 3 */
+
+    #project-3{flex-direction: column-reverse;align-items: center;}
+    #project-3-info{width:85%;}
+    #project-3-info h2{font-size:calc(1px + 4vw);}
+    #project-3-info h3{font-size:calc(1px + 3.5vw);}
+    #project-3-info p{font-size:calc(1px + 3vw);}
+    #project-3-images{width:90%;display:flex;justify-content:center; align-items:center;}
+    #project-3-images img{margin-top:2vh;}
+
+    /* project 4 */
+
+    #project-4{flex-direction: column;align-items: center;}
+    #project-4-info{width:85%;}
+    #project-4-info h2{font-size:calc(1px + 4vw);}
+    #project-4-info h3{font-size:calc(1px + 3.5vw);}
+    #project-4-info p{font-size:calc(1px + 3vw);}
+    #project-4-images{text-align:center;width:90%;}
  }
