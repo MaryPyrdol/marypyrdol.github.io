@@ -91,6 +91,7 @@ nav a{
     justify-content: center;
     height:auto;
     margin:auto;
+    margin-bottom:20vh;
 }
 
 #intro-A{
@@ -120,6 +121,64 @@ nav a{
 }
 
 #intro-B p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* user section 1 */
+
+#user-1{
+    width:45%;
+    margin:20vh auto;
+    height:auto;
+}
+
+#user-1 h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#user-1 p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* user section 2 */
+
+#painpoints{
+    margin:20vh 0;
+    height:auto;
+}
+
+#painpoints h2{
+    text-align:center;
+    color:#484848;
+    margin-bottom:10vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#user-2{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.painpoint{
+    width:20%;
+    margin:0 2vw;
+    text-align:center;
+}
+
+.painpoint p{
     color:#484848;
     margin-top:2vh;
     margin-bottom:2vh;
