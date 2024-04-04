@@ -73,6 +73,16 @@ nav a{
     text-align:center;
 }
 
+/* main advertisement at the top */
+
+#title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    margin:4vh auto;
+}
+
  /* Hide Hamburger Icon*/
  #hamnav label, #hamburger{display:none;}
  /* Small Screens */
