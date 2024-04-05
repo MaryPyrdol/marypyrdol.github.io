@@ -154,7 +154,7 @@ nav a{
 /* user section 2 */
 
 #painpoints{
-    margin:20vh 0;
+    margin:26vh 0;
     height:auto;
 }
 
@@ -184,6 +184,158 @@ nav a{
     margin-bottom:2vh;
     font-size:calc(5px + .8vw);
     line-height: 170%;
+}
+
+.painpoint h3{
+    color:#8A0000;
+    font-size:calc(5px + 1vw);
+
+}
+
+/* Persona */
+
+#persona{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:auto;
+    margin:26vh auto;
+}
+
+#persona-text{
+    width:40%;
+}
+
+#persona-text h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#persona-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#persona-image{
+    width:40%;
+}
+
+/* User journey */
+
+#journey{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:auto;
+    margin:26vh auto;
+}
+
+#journey-text{
+    width:30%;
+}
+
+#journey-text h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#journey-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#journey-text li{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#journey-image{
+    width:50%;
+    padding-left:2vw;
+}
+
+/* Paper Wireframes */
+
+#paper-wireframes{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:auto;
+    margin:26vh auto;
+}
+
+#paper-text{
+    width:40%;
+}
+
+#paper-text h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#paper-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#paper-image{
+    width:40%;
+    padding-right:4vw;
+}
+
+/* digital wireframes text */
+
+#digital-text{
+    width:45%;
+    margin: 14vh auto;
+}
+
+#digital-text h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#digital-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+/* Digital Wireframes images */
+
+#digital-wireframes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    margin:14vh auto;
+}
+
+.digital-image{
+    width:40%;
 }
 
  /* Hide Hamburger Icon*/
