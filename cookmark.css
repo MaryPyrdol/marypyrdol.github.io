@@ -9,7 +9,7 @@
 }
 
 html{
-    max-width:1920px;
+    max-width:1540px;
     margin: 0 auto;
 }
 
@@ -336,6 +336,40 @@ nav a{
 
 .digital-image{
     width:40%;
+}
+
+/* Lo Fi Prototype */
+
+#lo-fi-prototype{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:auto;
+    margin:26vh auto;
+}
+
+#lofi-text{
+    width:40%;
+}
+
+#lofi-text h2{
+    color:#484848;
+    margin-top:8vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.5vw);
+}
+
+#lofi-text p{
+    color:#484848;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    font-size:calc(5px + .8vw);
+    line-height: 170%;
+}
+
+#lofi-image{
+    width:40%;
+    padding-left:4vw;
 }
 
  /* Hide Hamburger Icon*/
