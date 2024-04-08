@@ -278,7 +278,7 @@ nav a{
 }
 
 #more-1-info{
-    width:40%;
+    width:35%;
     margin:auto;
 }
 
@@ -298,7 +298,7 @@ nav a{
 
 #more-video{
     width:50%;
-    text-align:center;
+    text-align:right;
 } 
 
 /* Project 2 - PSYCHE for Atari 2600 */
@@ -606,7 +606,7 @@ nav a{
     #more-1-info{width:70%;}
     #more-1-info h3{font-size:calc(1px + 2.5vw);}
     #more-1-info p{font-size:calc(1px + 2vw);}
-    #more-video{width:70%;margin:4vh auto;}
+    #more-video{width:70%;margin:4vh auto;text-align:center;}
 
     /* project 2 */
 
