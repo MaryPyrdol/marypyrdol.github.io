@@ -290,3 +290,12 @@ div #flex-item-2{
     .project-title h2{width:100%;font-size:calc(3vw + 2px);}
     .project-title h3{font-size:calc(3vw + 1.5px);}
  }
+
+ @media only screen and (min-width:1540px){
+    
+    .hello h1{
+        font-size:38px;
+    }.type-effect h1{
+        font-size:38px;
+    }
+ }
