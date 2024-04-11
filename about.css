@@ -73,6 +73,14 @@ nav a{
     text-align:center;
 }
 
+/* footer */
+
+footer{
+    font-size:calc(5px + .5vw);
+    text-align: center;
+    margin:10vh auto;
+}
+
 /* Introduction section 1 */
 
 #introduction-1{

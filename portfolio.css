@@ -68,6 +68,14 @@ nav a{
     width:2.1%;
 }
 
+/* footer */
+
+footer{
+    font-size:calc(5px + .5vw);
+    text-align: center;
+    margin:10vh auto;
+}
+
 /* page title */
 
 .type-effect{
