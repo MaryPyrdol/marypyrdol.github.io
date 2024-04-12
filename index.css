@@ -298,119 +298,25 @@ div #flex-item-2{
     
     /* Header (navigation, etc) */  
 
-header{
-    padding-top:30px;
-    padding-bottom:20px;
-   /* background-color:#686e76;*/
-   /*background:#2b323c;*/
-   background-color:#fff;
-   font-weight:bolder;
-}
-
-#header-container{
-    display:flex;
-    flex-direction:row;
-}
-
-#name-div{
-    width:300px;
-}
-
-#nav-div{
-    width:1240px;
-    text-align:right;
-}
-
-header h2{
-    color:#484848;
-    font-size:30px;
-    padding-left:30px;
-}
-
-a{
-    text-decoration:none;
-}
-
-nav li{
-    display:inline;
-    font-size:20px;
-    margin:0 18px;
-}
-
-li:hover{
-    color:rgb(68, 0, 255);
-}
-
-nav a{
-    text-decoration: none;
-    color:#484848;
-}
-
-.socials-icon{
-    width:28px;
-}
+header{padding-top:30px;padding-bottom:20px;}
+#name-div{width:300px;}
+#nav-div{width:1240px;}
+header h2{font-size:30px;padding-left:30px;}
+nav li{font-size:20px;margin:0 18px;}
+.socials-icon{width:28px;}
 
 /* footer */
 
-footer{
-    font-size:14px;
-    text-align: center;
-    margin:80px auto;
-}
+footer{font-size:14px;margin:80px auto;}
 
-#flex-container-1{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    margin-top:50px;
-}
+/* intro section */
 
-div #flex-item-1{
-    width:750px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
+#flex-container-1{margin-top:50px;}
+div #flex-item-1{width:750px;}
+div #flex-item-2{width:750px;padding-left:10px;}
 
-div #flex-item-2{
-    width:750px;
-    justify-content:left;
-    padding-left:10px;
-}
-
-.type-effect{
-    width:750px;
-    height:150px;
-    color:#484848;
-    display:flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding-left:220px;
-}
-
-.type-effect h1{
-    font-size:34px;
-    font-weight:600;
-}
-
-.auto-type{
-    color:rgb(68, 0, 255);
-}
-
-.hello{
-    width:600px;
-    height:140px;
-    color:#484848;
-    display:flex;
-    align-content: flex-end;
-    text-align: center;
-    justify-content: right;
-    margin-top:0;
-    margin-left:48px;
-}
-
-.hello h1{
-    margin-top:60px;
-    font-size:51px;
-}
+.type-effect{width:750px;height:150px;padding-left:220px;}
+.type-effect h1{font-size:34px;}
+.hello{width:600px;height:140px;margin-top:0;margin-left:48px;}
+.hello h1{margin-top:60px;font-size:51px;}
  }

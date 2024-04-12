@@ -13,6 +13,8 @@ html{
     margin: 0 auto;
 }
 
+/* header */
+
 header{
     padding-top:4vh;
     padding-bottom:3vh;
@@ -83,12 +85,15 @@ footer{
 
 /* main advertisement at the top */
 
-#title{
+#normal-image{
     display:flex;
     justify-content: center;
     align-items: center;
     height:auto;
     margin:4vh auto;
+}
+#mobile-image{
+    display:none;
 }
 
 /* introduction */
@@ -162,11 +167,18 @@ footer{
 /* user section 2 */
 
 #painpoints{
-    margin:26vh 0;
+    display:flex;
+    flex-direction:column;
+    margin:26vh auto;
     height:auto;
 }
 
-#painpoints h2{
+#pain-title{
+    text-align:center;
+    height:auto;
+}
+
+#pain-title h2{
     text-align:center;
     color:#484848;
     margin-bottom:10vh;
@@ -291,7 +303,7 @@ footer{
 
 #paper-text h2{
     color:#484848;
-    margin-top:8vh;
+    margin-top:4vh;
     margin-bottom:2vh;
     font-size:calc(5px + 1.5vw);
 }
@@ -487,6 +499,11 @@ footer{
     padding-right:2vw;
 }
 
+.data h3{
+    color:#8A0000;
+    font-size:calc(5px + 1vw);
+}
+
 .data li{
     color:#484848;
     margin-top:2vh;
@@ -533,8 +550,7 @@ footer{
 
 .mockup-image{
     width:40%;
-    margin-left:2vw;
-    margin-right:2vw;
+    margin:0 2vw;
 }
 
 /* mockups section 2 */
@@ -783,10 +799,275 @@ footer{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+    
+    /* advertisement */
+    #normal-image{display:none;}
+    #mobile-image{display:block;display:flex;justify-content: center;align-items: center;height:auto;margin:4vh auto;width:70%;}
+
+    /* Project Overview */
+
+    #introduction{flex-direction: column;}
+    #intro-A{width:70%;margin:0 auto;}
+    #intro-A h2{font-size:calc(1px + 3vw);}
+    #intro-A p{font-size:calc(1px + 2vw);}
+    #intro-B{width:70%;margin:0 auto;}
+    #intro-B p{font-size:calc(1px + 2vw);}
+
+    /* understanding the user */
+
+    #user-1{width:70%;margin:0 auto;}
+    #user-1 h2{font-size:calc(1px + 3vw);}
+    #user-1 p{font-size:calc(1px + 2vw);}
+
+    /* painpoints */
+
+    #pain-title h2{font-size:calc(1px + 3vw);}
+    .painpoint{width:25%;}
+    .painpoint h3{font-size:calc(1px + 2.5vw);}
+    .painpoint p{font-size:calc(1px + 2vw);}
+
+    /* user persona */
+
+    #persona{flex-direction: column;}
+    #persona-text{width:70%;margin:0 auto;}
+    #persona-text h2{font-size:calc(1px + 3vw);}
+    #persona-text p{font-size:calc(1px + 2vw);}
+    #persona-image{width:70%;margin:0 auto;}
+
+    /* user journey map */
+
+    #journey{flex-direction: column;}
+    #journey-text{width:70%;margin:0 auto;margin-bottom:4vh;}
+    #journey-text h2{font-size:calc(1px + 3vw);}
+    #journey-text p{font-size:calc(1px + 2vw);}
+    #journey-text li{font-size:calc(1px + 2vw);}
+    #journey-image{width:80%;margin:0 auto;padding-left:0;}
+
+    /* paper wireframes */
+
+    #paper-wireframes{flex-direction:column-reverse;}
+    #paper-text{width:70%;margin:0 auto;margin-bottom:4vh;}
+    #paper-text h2{font-size:calc(1px + 3vw);}
+    #paper-text p{font-size:calc(1px + 2vw);}
+    #paper-text li{font-size:calc(1px + 2vw);}
+    #paper-image{width:70%;margin:0 auto;padding-right:0;}
+
+    /* digital wireframes */
+
+    #digital-text{width:70%;margin:0 auto;}
+    #digital-text h2{font-size:calc(1px + 3vw);}
+    #digital-text p{font-size:calc(1px + 2vw);}
+
+    /* digital wireframes images */
+
+    .digital-image{width:45%;}
+
+    /* lo-fi prototype */
+
+    #lo-fi-prototype{flex-direction: column;}
+    #lofi-text{width:70%;margin:0 auto;margin-bottom:4vh;}
+    #lofi-text h2{font-size:calc(1px + 3vw);}
+    #lofi-text p{font-size:calc(1px + 2vw);}
+    #lofi-image{width:70%;margin:0 auto;padding-left:0;}
+
+    /* button */
+    .btn41-43{font-size:calc(1px + 2vw);margin:2vh 13vw;}
+
+    /* usability study */
+
+    #usability-row{flex-direction:column;margin:26vh auto;}
+    #usability-study{width:70%;margin:0 auto;margin-bottom:4vh;}
+    #usability-study h2{font-size:calc(1px + 3vw);}
+    #usability-study p{font-size:calc(1px + 2vw);}
+    #findings{width:70%;margin:0 auto;}
+    .data{width:42%;margin:0 auto;padding-right:0;}
+    .data h3{font-size:calc(1px + 2.5vw);}
+    .data li{font-size:calc(1px + 2vw);}
+
+    /* mockups */
+
+    #mockups{width:70%;margin:0 auto;margin-bottom:6vh;}
+    #mockups h2{font-size:calc(1px + 3vw);}
+    #mockups p{font-size:calc(1px + 2vw);}
+    #mockup-images{flex-direction:column;margin:0 auto;}
+    .mockup-image{width:70%;margin:0 auto;margin-top:2vh;padding-left:0;}
+    #mockups-2{width:70%;}
+    #mockups-2 p{font-size:calc(1px + 2vw);}
+    #mockups-4{width:100%;}
+
+    /* hifi prototype */
+
+    #hi-fi-prototype{flex-direction: column;}
+    #hifi-text{width:70%;margin:0 auto;}
+    #hifi-text h2{font-size:calc(1px + 3vw);}
+    #hifi-text p{font-size:calc(1px + 2vw);}
+    #hifi-image{width:70%;padding-left:0;margin:0 auto;margin-top:4vh;}
+
+    /* accessibility */
+
+    #accessibility{width:70%;margin:0 auto;}
+    #accessibility h2{font-size:calc(1px + 3vw);}
+    #accessibility p{font-size:calc(1px + 2vw);}
+    #accessibility-points{flex-direction: column;width:55%;}
+    .point{width:100%;margin:2vh auto;}
+    .point h3{font-size:calc(1px + 2.5vw);}
+    .point p{font-size:calc(1px + 2vw);}
+
+    /* takeaways */
+
+    #takeaways{width:70%;margin:26vh auto;}
+    #takeaways h2{font-size:calc(1px + 3vw);}
+    #takeaways p{font-size:calc(1px + 2vw);}
+
+    /* Next Steps */
+
+    #next-steps{width:70%;margin:0 auto;}
+    #next-steps h2{font-size:calc(1px + 3vw);}
+    #next-steps p{font-size:calc(1px + 2vw);}
+    #next-step-points{flex-direction: column;width:55%;}
+    .next-point{width:100%;margin:2vh auto;}
+    .next-point h3{font-size:calc(1px + 2.5vw);}
+    .next-point p{font-size:calc(1px + 2vw);}
+
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* advertisement */
+     #mobile-image{width:90%;}
+
+     /* Project Overview */
+
+    #introduction{flex-direction: column;}
+    #intro-A{width:90%;margin:0 auto;}
+    #intro-A h2{font-size:calc(1px + 4vw);}
+    #intro-A p{font-size:calc(1px + 3vw);}
+    #intro-B{width:90%;margin:0 auto;}
+    #intro-B p{font-size:calc(1px + 3vw);}
+
+    /* understanding the user */
+
+    #user-1{width:90%;margin:0 auto;}
+    #user-1 h2{font-size:calc(1px + 4vw);}
+    #user-1 p{font-size:calc(1px + 3vw);}
+
+    /* painpoints */
+
+    #pain-title h2{font-size:calc(1px + 4vw);margin:0 auto;margin-bottom:4vh;}
+    #user-2{flex-direction:column;}
+    .painpoint{width:80%;margin:2vh auto;}
+    .painpoint h3{font-size:calc(1px + 3.5vw);}
+    .painpoint p{font-size:calc(1px + 3vw);}
+
+    /* user persona */
+
+    #persona{flex-direction: column;}
+    #persona-text{width:90%;margin:0 auto;}
+    #persona-text h2{font-size:calc(1px + 4vw);}
+    #persona-text p{font-size:calc(1px + 3vw);}
+    #persona-image{width:90%;margin:0 auto;}
+
+    /* user journey map */
+
+    #journey{flex-direction: column;}
+    #journey-text{width:90%;margin:0 auto;margin-bottom:4vh;}
+    #journey-text h2{font-size:calc(1px + 4vw);}
+    #journey-text p{font-size:calc(1px + 3vw);}
+    #journey-text li{font-size:calc(1px + 3vw);margin-left:2vw;}
+    #journey-image{width:90%;margin:0 auto;padding-left:0;}
+
+    /* paper wireframes */
+
+    #paper-wireframes{flex-direction:column-reverse;}
+    #paper-text{width:90%;margin:0 auto;margin-bottom:4vh;}
+    #paper-text h2{font-size:calc(1px + 4vw);}
+    #paper-text p{font-size:calc(1px + 3vw);}
+    #paper-text li{font-size:calc(1px + 3vw);}
+    #paper-image{width:90%;margin:0 auto;padding-right:0;}
+
+    /* digital wireframes */
+
+    #digital-text{width:90%;margin:0 auto;}
+    #digital-text h2{font-size:calc(1px + 4vw);}
+    #digital-text p{font-size:calc(1px + 3vw);}
+
+    /* digital wireframes images */
+
+    #digital-wireframes{flex-direction:column;margin-top:4vh;}
+    .digital-image{width:95%;margin:0 auto;}
+
+    /* lo-fi prototype */
+
+    #lo-fi-prototype{flex-direction: column;}
+    #lofi-text{width:90%;margin:0 auto;margin-bottom:4vh;}
+    #lofi-text h2{font-size:calc(1px + 4vw);}
+    #lofi-text p{font-size:calc(1px + 3vw);}
+    #lofi-image{width:90%;margin:0 auto;padding-left:0;}
+
+    /* button */
+    .btn41-43{font-size:calc(1px + 3vw);margin:2vh 16vw;}
+
+    /* usability study */
+
+    #usability-row{flex-direction:column;margin:26vh auto;}
+    #usability-study{width:90%;margin:0 auto;margin-bottom:4vh;}
+    #usability-study h2{font-size:calc(1px + 4vw);}
+    #usability-study p{font-size:calc(1px + 3vw);}
+    #findings{flex-direction:column;width:90%;margin:0 auto;}
+    .data{width:70%;margin:0 auto;}
+    .data h3{font-size:calc(1px + 3.5vw);}
+    .data li{font-size:calc(1px + 3vw);}
+
+    /* mockups */
+
+    #mockups{width:90%;margin:0 auto;margin-bottom:6vh;}
+    #mockups h2{font-size:calc(1px + 4vw);}
+    #mockups p{font-size:calc(1px + 3vw);}
+    #mockup-images{flex-direction:column;margin:0 auto;}
+    .mockup-image{width:90%;margin:0 auto;margin-top:2vh;padding-left:0;}
+    #mockups-2{width:90%;}
+    #mockups-2 p{font-size:calc(1px + 3vw);}
+    #mockups-4{width:100%;}
+
+    /* hifi prototype */
+
+    #hi-fi-prototype{flex-direction: column;}
+    #hifi-text{width:90%;margin:0 auto;}
+    #hifi-text h2{font-size:calc(1px + 4vw);}
+    #hifi-text p{font-size:calc(1px + 3vw);}
+    #hifi-image{width:90%;padding-left:0;margin:0 auto;margin-top:4vh;}
+    .hifi-btn{margin:2vh 15.5vw;}
+
+    /* accessibility */
+
+    #accessibility{width:90%;margin:0 auto;}
+    #accessibility h2{font-size:calc(1px + 4vw);}
+    #accessibility p{font-size:calc(1px + 3vw);}
+    #accessibility-points{flex-direction:column;width:80%;margin-top:4vh;}
+    .point{width:100%;margin:2vh auto;}
+    .point h3{font-size:calc(1px + 3.5vw);}
+    .point p{font-size:calc(1px + 3vw);}
+
+    /* takeaways */
+
+    #takeaways{width:90%;margin:20vh auto;}
+    #takeaways h2{font-size:calc(1px + 4vw);}
+    #takeaways p{font-size:calc(1px + 3vw);}
+
+    /* Next Steps */
+
+    #next-steps{width:90%;margin:0 auto;}
+    #next-steps h2{font-size:calc(1px + 4vw);}
+    #next-steps p{font-size:calc(1px + 3vw);}
+    #next-step-points{flex-direction: column;width:80%;}
+    .next-point{width:100%;margin:2vh auto;}
+    .next-point h3{font-size:calc(1px + 3.5vw);}
+    .next-point p{font-size:calc(1px + 3vw);}
+
+    /* footer */
+
+    footer{font-size:calc(1px + 2vw);}
  }
