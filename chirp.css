@@ -107,7 +107,7 @@ footer{
 
 #intro-A{
     margin:0 2vw;
-    width:36%;
+    width:30%;
 }
 
 #intro-A h2{
@@ -128,7 +128,7 @@ footer{
 #intro-B{
     margin:0 2vw;
     margin-top:8vh;
-    width:24%;
+    width:auto;
 }
 
 #intro-B p{
@@ -633,6 +633,7 @@ footer{
     width:45%;
     height:auto;
     margin:0 auto;
+    text-align:center;
 }
 
 #accessibility h2{
