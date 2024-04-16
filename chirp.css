@@ -352,8 +352,12 @@ footer{
     margin:14vh auto;
 }
 
-.digital-image{
-    width:40%;
+#digital-image-1{
+    width:36%;
+}
+
+#digital-image-2{
+    width:49%;
 }
 
 /* Lo Fi Prototype */
@@ -857,9 +861,6 @@ footer{
     #digital-text h2{font-size:calc(1px + 3vw);}
     #digital-text p{font-size:calc(1px + 2vw);}
 
-    /* digital wireframes images */
-
-    .digital-image{width:45%;}
 
     /* lo-fi prototype */
 
@@ -996,7 +997,8 @@ footer{
     /* digital wireframes images */
 
     #digital-wireframes{flex-direction:column;margin-top:4vh;}
-    .digital-image{width:95%;margin:0 auto;}
+    #digital-image-1{width:95%;margin:2vh auto;}
+    #digital-image-2{width:98%;margin:2vh auto;}
 
     /* lo-fi prototype */
 
