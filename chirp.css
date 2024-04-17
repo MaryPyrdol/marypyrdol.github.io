@@ -205,7 +205,7 @@ footer{
 }
 
 .painpoint h3{
-    color:#8A0000;
+    color:#1C00BF;
     font-size:calc(5px + 1vw);
 
 }
@@ -360,6 +360,25 @@ footer{
     width:49%;
 }
 
+/* Digital Wireframes images section 2 */
+
+#digital-wireframes-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    margin:14vh auto;
+}
+
+#digital-image-21{
+    width:43.5%;
+}
+
+#digital-image-22{
+    width:40%;
+}
+
 /* Lo Fi Prototype */
 
 #lo-fi-prototype{
@@ -472,7 +491,7 @@ footer{
 }
 
 #usability-study h3{
-    color:#8A0000;
+    color:#1C00BF;
     font-size:calc(5px + 1vw);
 }
 
@@ -553,6 +572,21 @@ footer{
 .mockup-image{
     width:40%;
     margin:0 2vw;
+}
+
+/* mockup images section 2*/
+
+#mockup-images-2{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    height:auto;
+    margin-bottom:8vh;
+}
+
+.mockup-image-2{
+    width:80%;
+    margin:2vh auto;
 }
 
 /* mockups section 2 */
@@ -999,6 +1033,9 @@ footer{
     #digital-wireframes{flex-direction:column;margin-top:4vh;}
     #digital-image-1{width:95%;margin:2vh auto;}
     #digital-image-2{width:98%;margin:2vh auto;}
+    #digital-wireframes-2{flex-direction:column;margin-top:4vh;}
+    #digital-image-21{width:95%;margin:2vh auto;}
+    #digital-image-22{width:95%;margin:2vh auto;}
 
     /* lo-fi prototype */
 
@@ -1029,6 +1066,7 @@ footer{
     #mockups p{font-size:calc(1px + 3vw);}
     #mockup-images{flex-direction:column;margin:0 auto;}
     .mockup-image{width:90%;margin:0 auto;margin-top:2vh;padding-left:0;}
+    .mockup-image-2{width:95%;}
     #mockups-2{width:90%;}
     #mockups-2 p{font-size:calc(1px + 3vw);}
     #mockups-4{width:100%;}
