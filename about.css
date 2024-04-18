@@ -171,6 +171,18 @@ footer{
     margin:0 2vw;
 }
 
+#skills-text-1 h1{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.8vw);
+}
+
+#skills-text-2 h1{
+    color:#484848;
+    margin-bottom:2vh;
+    font-size:calc(5px + 1.8vw);
+}
+
 #skills-text-1 li{
     color:#484848;
     margin-top:2vh;
@@ -232,10 +244,63 @@ footer{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+
+    /* introduction section 1 */
+
+    #introduction-1{flex-direction:column;margin:0 auto;}
+    #intro-text{margin:2vh auto;width:70%;}
+    #intro-text h1{font-size:calc(1px + 3.5vw);}
+    #intro-text p{font-size:calc(1px + 2vw);}
+    #intro-image{margin:0 auto;width:50%;}
+
+    /* introduction section 2 */
+
+    #introduction-2{flex-direction: column-reverse;margin:0 auto;}
+    #intro-text-2{margin:4vh auto;width:70%;}
+    #intro-text-2 p{font-size:calc(1px + 2vw);}
+    #intro-image-2{margin:4vh auto;width:50%;}
+
+    /* skills section */
+
+    #skills{flex-direction: column;}
+    #skills-image{margin:4vh auto;width:50%;}
+    #skills-text-1{margin:4vh auto;width:auto;}
+    #skills-text-1 li{font-size:calc(1px + 2vw);}
+    #skills-text-1 h1{font-size:calc(1px + 3.5vw);}
+    #skills-text-2{margin:4vh auto;width:auto;}
+    #skills-text-2 li{font-size:calc(1px + 2vw);}
+    #skills-text-2 h1{font-size:calc(1px + 3.5vw);}
+
  }
 
  @media only screen and (max-width:600px){
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+
+     /* introduction section 1 */
+
+    #introduction-1{flex-direction:column;margin:0 auto;}
+    #intro-text{margin:2vh auto;width:90%;}
+    #intro-text h1{font-size:calc(1px + 4.5vw);}
+    #intro-text p{font-size:calc(1px + 3vw);}
+    #intro-image{margin:0 auto;width:80%;}
+
+    /* introduction section 2 */
+
+    #introduction-2{flex-direction: column-reverse;margin:0 auto;}
+    #intro-text-2{margin:4vh auto;width:90%;}
+    #intro-text-2 p{font-size:calc(1px + 3vw);}
+    #intro-image-2{margin:4vh auto;width:80%;}
+
+    /* skills section */
+
+    #skills{flex-direction: column;}
+    #skills-image{margin:4vh auto;width:80%;}
+    #skills-text-1{margin:4vh auto;width:auto;}
+    #skills-text-1 li{font-size:calc(1px + 3vw);}
+    #skills-text-1 h1{font-size:calc(1px + 4.5vw);}
+    #skills-text-2{margin:4vh auto;width:auto;}
+    #skills-text-2 li{font-size:calc(1px + 3vw);}
+    #skills-text-2 h1{font-size:calc(1px + 4.5vw);}
  }
