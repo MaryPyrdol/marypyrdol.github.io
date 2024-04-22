@@ -294,10 +294,12 @@ div #flex-item-2{
     .project-title h3{font-size:calc(3vw + 1.5px);}
  }
 
+ /*
+
  @media only screen and (min-width:1540px){
     
     /* Header (navigation, etc) */  
-
+/*
 header{padding-top:30px;padding-bottom:20px;}
 #name-div{width:300px;}
 #nav-div{width:1240px;}
@@ -306,11 +308,11 @@ nav li{font-size:20px;margin:0 18px;}
 .socials-icon{width:28px;}
 
 /* footer */
-
+/*
 footer{font-size:14px;margin:80px auto;}
 
 /* intro section */
-
+/*
 #flex-container-1{margin-top:50px;}
 div #flex-item-1{width:750px;}
 div #flex-item-2{width:750px;padding-left:10px;}
@@ -320,3 +322,4 @@ div #flex-item-2{width:750px;padding-left:10px;}
 .hello{width:600px;height:140px;margin-top:0;margin-left:48px;}
 .hello h1{margin-top:60px;font-size:51px;}
  }
+ */
