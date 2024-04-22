@@ -84,19 +84,17 @@ footer{
 }
 
 div #flex-item-1{
-    width:30%;
+    width:auto;
     display:flex;
     flex-direction:column;
     justify-content:center;
     margin-left: auto;
-    margin-right: 0;
+    padding-right: 6vw;
 }
 
 div #flex-item-2{
-    width:36%;
+    width:52%;
     justify-content:left;
-    margin-right:auto;
-    margin-left:0;
 }
 
 .type-effect{
@@ -120,7 +118,7 @@ div #flex-item-2{
     width:auto;
     height:auto;
     color:#484848;
-    text-align: center;
+    text-align: right;
 }
 
 .hello h1{
