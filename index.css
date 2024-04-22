@@ -88,6 +88,7 @@ div #flex-item-1{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    padding-left:20%;
 }
 
 div #flex-item-2{
@@ -97,13 +98,11 @@ div #flex-item-2{
 }
 
 .type-effect{
-    width:100%;
-    height:20vh;
+    width:auto;
+    height:auto;
     color:#484848;
     display:flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding-left:15vw;
+    justify-content: left;
 }
 
 .type-effect h1{
@@ -116,20 +115,14 @@ div #flex-item-2{
 }
 
 .hello{
-    width:80%;
-    height:20vh;
+    width:auto;
+    height:auto;
     color:#484848;
-    display:flex;
-    align-content: flex-end;
-    text-align: center;
-    justify-content: right;
-    margin-top:0;
-    margin-left:3vw;
+    text-align: left;
 }
 
 .hello h1{
-    margin-top:10vh;
-    font-size:calc(5px + 3vw);
+    font-size:calc(1px + 3vw);
 }
 
 
@@ -258,9 +251,11 @@ div #flex-item-2{
     .socials-icon{width:10%;}
     #flex-container-1{flex-direction:column;justify-content: center;align-items: center;margin-top:10vh;height:auto;}
     #flex-item-1{width:100%;}
-    .type-effect{padding-left:0;height:8vh;width:100%;}
-    .hello{width:100%;margin-left:0;text-align:center;justify-content: center;height:10vh;}
-    .hello h1{margin-top:2vh;}
+    div#flex-item-1{padding-left:0;margin:5vh auto;width:100%;}
+    .type-effect{padding-left:0;width:100%;justify-content: center;}
+    .type-effect h1{font-size:calc(1px + 3.5vw);}
+    .hello{width:100%;margin-left:0;text-align:center;justify-content: center;}
+    .hello h1{margin-top:2vh;font-size:calc(1px + 5vw);}
     #flex-container-2{flex-direction:column;justify-content: center;align-items: center;margin-top:30vh;height:auto;}
     div#flex-item-2{display:flex;justify-content: center;width:80%;}
     .project-title{margin-top:2vh;width:90%;}
