@@ -69,7 +69,7 @@ nav a{
 }
 
 #page-title h1{
-    font-size:calc(5px + 3vw);
+    font-size:calc(1px + 3vw);
     margin-top:10vh;
     margin-bottom:5vh;
     text-align:center;
@@ -207,6 +207,7 @@ footer{
     ul#ham-items{margin:4vh 0;}
     a{margin:6vh 0;}
     .socials-icon{width:10%;}
+    #page-title h1{font-size:calc(1px + 3.5vw);}
 
     /* introduction */
 
@@ -237,6 +238,7 @@ footer{
     /* html, body{width:100%;}*/
      header{margin-top:0;}
      header h2{margin-top:1vh;}
+     #page-title h1{font-size:calc(1px + 4.5vw);}
 
      /* introduction */
 

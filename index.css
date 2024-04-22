@@ -214,6 +214,55 @@ div #flex-item-2{
     -webkit-animation-name: fadeInUp;
 } 
 
+/* Special Button (it can be used across this whole page!) */
+
+.btn41-43 {
+    margin:2vh auto;
+    padding: 1.5vh 2.5vw;
+    font-weight: 500;
+    font-size:calc(5px + .7vw);
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-41 {
+    border: 2px solid rgb(68, 0, 255);
+    border-radius:10px;
+    z-index: 1;
+    color:rgb(68, 0, 255);
+  }
+  
+  .btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(68, 0, 255);
+    border-radius:5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-41:hover {
+    color:#fff;
+  }
+  
+  .btn-41:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  
+  .btn-41:active {
+    top: 2px;
+  }
 
 
  /* Hide Hamburger Icon*/
@@ -265,6 +314,9 @@ div #flex-item-2{
     #project-2-details{width:90%;}
     #flex-container-3{flex-direction:column-reverse;justify-content: center;align-items: center;margin-top:40vh;height:auto;}
     #project-3-details{width:90%;}
+
+    /* button */
+    .btn41-43{font-size:calc(1px + 2vw);margin:2vh 13vw;}
  }
 
  /*@media only screen and (max-width:680px){
@@ -289,6 +341,9 @@ div #flex-item-2{
     .project-title h1{font-size:calc(4vw + 2px);}
     .project-title h2{width:100%;font-size:calc(3vw + 2px);}
     .project-title h3{font-size:calc(3vw + 1.5px);}
+    
+    /* button */
+     .btn41-43{font-size:calc(1px + 3vw);margin:2vh 16vw;}
  }
 
  /*
