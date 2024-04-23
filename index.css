@@ -354,6 +354,9 @@ div #flex-item-2{
     .hello h1{margin-top:60px;font-size:51px;}
     header h2{font-size:40px;}
     nav li{font-size:25px;}
+    .project-title h1{font-size:50px;}
+    .project-title h2{font-size:50px;}
+    .project-title h3{font-size:50px;}
     
  }
     /* Header (navigation, etc) */  

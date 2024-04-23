@@ -188,7 +188,6 @@ footer{
     margin-top:2vh;
     margin-bottom:2vh;
     font-size:calc(5px + .7vw);
-    line-height: 90%;
     margin-left:3vw;
 }
 
@@ -197,7 +196,6 @@ footer{
     margin-top:2vh;
     margin-bottom:2vh;
     font-size:calc(5px + .7vw);
-    line-height: 90%;
     margin-left:3vw;
 }
 
@@ -305,4 +303,21 @@ footer{
     #skills-text-2{margin:4vh auto;width:auto;}
     #skills-text-2 li{font-size:calc(1px + 3vw);}
     #skills-text-2 h1{font-size:calc(1px + 4.5vw);}
+ }
+
+ @media only screen and (min-width:1540px){
+
+    header h2{font-size:40px;}
+    nav li{font-size:25px;}
+    #page-title h1{font-size:60px;}
+    #intro-text h1{font-size:40px;}
+    #intro-text p{font-size:18px;}
+    #intro-text-2 p{font-size:18px;}
+    #skills-text-1 h1{font-size:35px;}
+    #skills-text-2 h1{font-size:35px;}
+    #skills-text-1 li{font-size:22px;line-height:30px;}
+    #skills-text-2 li{font-size:22px;line-height:30px;}
+
+
+
  }
