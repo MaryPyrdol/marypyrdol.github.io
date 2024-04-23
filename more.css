@@ -88,11 +88,12 @@ footer{
 /* projects */
 
 div#projects{
-    width:100%;
+    width:95%;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content: center;
+    margin:0 auto;
    /* background-color:aqua;*/
 }
 
@@ -107,25 +108,13 @@ div#projects{
   opacity: 1;
 }
 
-.category h1{
-    text-align:center;
-    margin:2vw;
-    font-size:calc(5px + 1.5vw);
-}
-
-.category h2{
-    text-align:center;
-    margin:2vw;
-    font-size:calc(5px + .8vw);
-}
-
 .category:hover{
     transform: scale(1.02, 1.02);
     transition-duration: .3s;
 }
 
 .category:not(:hover){
-    width:28%;
+    width:29%;
     margin:2vw;
     height:auto;
     transform: scale(1, 1);
@@ -172,6 +161,12 @@ div#projects{
      ul#ham-items{margin:4vh 0;}
      a{margin:6vh 0;}
      .socials-icon{width:10%;}
+
+     /* gallery boxes */
+
+     div#projects{width:100%;}
+     .category{width:40%;}
+     .category:not(:hover){width:40%;}
 }
 
 @media only screen and (max-width:600px){
@@ -179,10 +174,7 @@ div#projects{
      header{margin-top:0;}
      header h2{margin-top:1vh;}
      div#projects{flex-direction:column;align-items:center;flex-wrap:nowrap;width:100%;}
-     .category{width:100%;}
-     .category h1{font-size:calc(1px + 3.5vw);}
-     .category h2{font-size:calc(1px + 2.5vw);}
-     .category:not(:hover){width:90%;margin-top:6vh;}
-     .type-effect h1{font-size:calc(1px + 4vw);}
+     .category{width:90%;}
+     .category:not(:hover){width:90%;}
      #page-title h1{font-size:calc(1px + 5vw);}
 }
