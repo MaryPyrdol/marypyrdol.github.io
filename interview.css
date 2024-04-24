@@ -463,3 +463,54 @@ footer{
     #conclusion{width:85%;}
     #conclusion p{font-size:calc(1px + 3vw);}
  }
+
+ @media only screen and (min-width:1540px){
+
+    header h2{font-size:40px;}
+    nav li{font-size:25px;}
+    #page-title h1{font-size:60px;}
+
+    /* introduction */
+
+    #introduction h2{font-size:40px;}
+    #introduction p{font-size:20px;}
+
+    /* questions */
+
+    #questions h3{font-size:24px;}
+    #questions p{font-size:20px;}
+
+    /* Question 1 */
+
+    #Q1-text p{font-size:20px;}
+
+    /* Question 2 */
+
+    #Q2-text p{font-size:20px;}
+
+    /* Question 2-2 */
+
+    #question-2-2 p{font-size:20px;}
+
+    /* images 
+
+    #poster-boxes{flex-direction:column;align-items: center;}
+    .poster-box{width:90%;margin:1vh 0;}
+
+    */
+
+    /* Question 3 */
+
+    #Q3-text p{font-size:20px;}
+
+    /* Inspiration section */
+
+    #inspo-text p{font-size:20px;}
+
+    /* Conclusion */
+
+    #conclusion p{font-size:20px;}
+
+ }
+
+ 
