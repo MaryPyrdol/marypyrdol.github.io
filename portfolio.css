@@ -203,3 +203,15 @@ div#projects{
      .type-effect h1{font-size:calc(1px + 4vw);}
      #page-title h1{font-size:calc(1px + 5vw);}
 }
+
+@media only screen and (min-width:1540px){
+
+    header h2{font-size:40px;}
+    nav li{font-size:25px;}
+    .type-effect h1{font-size:55px;}
+    #page-title h1{font-size:60px;}
+    .category h1{font-size:60px;}
+    .category h2{font-size:40px;}
+    
+
+ }

@@ -1524,3 +1524,120 @@ video{
     #conclusion-1 h2{font-size:calc(1px + 4vw);}
     #conclusion-1 p{font-size:calc(1px + 3vw);}
  }
+ 
+ @media only screen and (min-width:1540px){
+
+    header h2{font-size:40px;}
+    nav li{font-size:25px;}
+
+    /*page title and project title*/
+
+    #page-title h1{font-size:60px;}
+    #project-title{font-size:50px;}
+
+    /* Table of Contents */
+
+   #table-of-contents h2{font-size:40px;}
+   #table-of-contents h3{font-size:24px;}
+
+    /* thesis statement */
+
+    #introduction h2{font-size:40px;}
+    #introduction p{font-size:20px;}
+
+    /* how it works */
+
+    #how-it-works{font-size:40px;}
+    #hiw-box-1 p{font-size:20px;}
+   #hiw-box-2 p{font-size:20px;}
+   #hiw-box-3 p{font-size:20px;}
+    .hiw-title{font-size:20px;}
+
+    /* methodology */
+
+   #methodology-text h2{font-size:40px;}
+   #methodology-text p{font-size:20px;}
+
+   /* methodology section 2 */
+
+   #methodology-2-text p{font-size:20px;}
+
+   /* Question section 1 */
+
+   #question-text p{font-size:20px;}
+   #big-questions h2{font-size:40px;}
+
+   /* question section 2 */
+
+   #question-2-text p{font-size:20px;}
+   #big-questions-2 h2{font-size:40px;}
+
+   /* the problem */
+
+   #problem-text h2{font-size:40px;}
+   #problem-text p{font-size:20px;}
+
+   /* my hypothesis */
+
+   #my-hypothesis h2{font-size:40px;}
+   #my-hypothesis p{font-size:20px;}
+
+   /* process */
+
+   #process h2{font-size:40px;}
+   #process p{font-size:20px;}
+
+   /* process boxes */
+
+   #process-box-1 p{font-size:20px;}
+   #process-box-2 p{font-size:20px;}
+   #process-box-3 p{font-size:20px;}
+
+   /* experiments */
+
+   #experiments h2{font-size:40px;}
+   #experiments p{font-size:20px;}
+   #select{font-size:20px;}
+
+   /* experiment boxes */
+
+   #experiment-box-1 p{font-size:20px;}
+   #experiment-box-2 p{font-size:20px;}
+   #experiment-box-3 p{font-size:20px;}
+   #experiment-box-4 p{font-size:20px;}
+
+   /* thesis interview */
+
+   #interview-text h2{font-size:40px;}
+   #interview-text p{font-size:20px;}
+   .btn41-43{font-size:20px;}
+
+   /* Competitive Audit */
+
+   #audit-1 h2{font-size:40px;}
+   #audit-1 p{font-size:20px;}
+   #audit-3 p{font-size:20px;}
+
+   /* mockups */
+
+   #mockup-text-1 h2{font-size:40px;}
+   #mockup-text-1 p{font-size:20px;}
+   #mockup-text-2 p{font-size:20px;}
+   #mockup-text-3 p{font-size:20px;}
+
+   /* design solutions */
+
+   #solutions-1 h2{font-size:40px;}
+   #solutions-1 p{font-size:20px;}
+   #solutions-2-text p{font-size:20px;}
+   #solutions-3-text p{font-size:20px;}
+   #solutions-4-text p{font-size:20px;}
+   #solutions-5-text p{font-size:20px;}
+   #solutions-6-text p{font-size:20px;}
+
+   /* conclusion */
+
+   #conclusion-1 h2{font-size:40px;}
+   #conclusion-1 p{font-size:20px;}
+
+ }
