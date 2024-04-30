@@ -114,6 +114,28 @@ footer{
     margin:4vh auto;
 }
 
+.feature-2 p{
+    color:#484848;
+    font-size:calc(5px + .7vw);
+    line-height: 170%;
+    text-align:center;
+}
+
+#image-gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    margin:auto;
+}
+
+.frames{
+    width:30%;
+    margin:2vh auto;
+}
+
  /* Hide Hamburger Icon*/
  #hamnav label, #hamburger{display:none;}
 
