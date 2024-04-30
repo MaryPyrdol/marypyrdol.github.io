@@ -178,3 +178,11 @@ div#projects{
      .category:not(:hover){width:90%;}
      #page-title h1{font-size:calc(1px + 5vw);}
 }
+
+@media only screen and (min-width:1540px){
+
+    header h2{font-size:40px;}
+    nav li{font-size:25px;}
+    #page-title h1{font-size:50px;}
+
+ }
