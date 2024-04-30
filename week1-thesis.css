@@ -240,3 +240,15 @@ footer{
     #inspo-text p{font-size:calc(1px + 3vw);}
     #inspo-image{width:100%;}
  }
+
+ @media only screen and (min-width:1540px){
+
+    header h2{font-size:40px;}
+    nav li{font-size:25px;}
+    #page-title h1{font-size:60px;}
+
+    
+
+ }
+
+ 
