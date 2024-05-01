@@ -78,47 +78,34 @@ footer{
 
 /* project content section */
 
-.project-text{
-    width:50%;
+#project-intro{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:4vh auto;
+}
+
+#project-text{
+    width:45%;
     height:auto;
     margin:auto;
 }
 
-.project-text h2{
+#project-text h2{
     color:#484848;
     font-size:calc(5px + 1.5vw);
     line-height: 170%;
 }
 
-.project-text p{
+#project-text p{
     color:#484848;
     font-size:calc(5px + .7vw);
     line-height: 170%;
 }
 
-#feature{
-    width:30%;
-    height:auto;
-    margin:4vh auto;
-}
-
-#video-feature{
-    width:70%;
-    height:auto;
-    margin:4vh auto;
-}
-
-.feature-2{
-    width:50%;
-    height:auto;
-    margin:4vh auto;
-}
-
-.feature-2 p{
-    color:#484848;
-    font-size:calc(5px + .7vw);
-    line-height: 170%;
-    text-align:center;
+#project-image{
+    width:45%;
+    margin-left:auto;
 }
 
 #image-gallery{
@@ -127,11 +114,11 @@ footer{
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    width:70%;
+    width:90%;
     margin:auto;
 }
 
-.frames{
+.pictures{
     width:30%;
     margin:2vh auto;
 }
@@ -179,15 +166,13 @@ footer{
 
      /* project content */
 
-     .project-text{width:70%;}
-     .project-text h2{font-size:calc(1px + 3vw);}
-     .project-text p{font-size:calc(1px + 2vw);}
-     #feature{width:70%;}
-     #video-feature{width:70%;}
-     .feature-2{width:70%;}
-     .feature-2 p{font-size:calc(1px + 2vw);}
+     #project-intro{flex-direction: column-reverse;}
+     #project-text{width:70%;}
+     #project-text h2{font-size:calc(1px + 3vw);}
+     #project-text p{font-size:calc(1px + 2vw);}
+     #project-image{width:70%;margin:4vh auto;}
      #image-gallery{width:80%;}
-     .frames{width:45%;}
+     .pictures{width:45%;}
 }
 
 @media only screen and (max-width:600px){
@@ -197,13 +182,10 @@ footer{
      
      /* project content */
 
-     .project-text{width:90%;}
-     .project-text h2{font-size:calc(1px + 4vw);}
-     .project-text p{font-size:calc(1px + 3vw);}
-     #feature{width:70%;}
-     #video-feature{width:90%;}
-     .feature-2{width:90%;}
-     .feature-2 p{font-size:calc(1px + 3vw);}
+     #project-text{width:90%;}
+     #project-text h2{font-size:calc(1px + 4vw);}
+     #project-text p{font-size:calc(1px + 3vw);}
+     #project-image{width:90%;margin:4vh auto;}
      #image-gallery{width:90%;}
-     .frames{width:48%;}
+     .pictures{width:48%;}
 }
